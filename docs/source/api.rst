@@ -1,10 +1,10 @@
 API
 ===
 .. meta::
-   :description: Access your Workice CRM invoices, deals and projects using RESTful API
+   :description: Send , Access your SMS , USERS ,WEBHOOKS,   using RESTful API
    :keywords: projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon
 
-Workice CRM provides a RESTful API. Below are the API Endpoints you can use;
+Noregrets provides a RESTful API. Below are the API Endpoints you can use;
 
 Authorization
 """""""""""""

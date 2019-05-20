@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Workice CRM'
-copyright = u'2019, William Mandai'
-author = u'William Mandai'
+project = u'Noregrets SMS'
+copyright = u'2019, Hamsoft Uganda'
+author = u'stevebaros'
 
 # The short X.Y version
 version = u''
@@ -108,7 +108,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'WorkiceDocsdoc'
+htmlhelp_basename = 'NoregretsDocsdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -135,8 +135,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'WorkiceDocs.tex', u'Workice CRM Documentation',
-     u'William Mandai', 'manual'),
+    (master_doc, 'NoregretsDocs.tex', u'Noregrets SMS Documentation',
+     u'Hamsoft Uganda', 'manual'),
 ]
 
 
@@ -145,7 +145,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'workicedocs', u'Workice CRM Documentation',
+    (master_doc, 'noregretsdocs', u'Noregrets SMS Documentation',
      [author], 1)
 ]
 
@@ -156,8 +156,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'WorkiceCRM', u'Workice CRM Documentation',
-     author, 'WorkiceCRM', 'One CRM to manage your entire invoicing, expenses, deals and projects',
+    (master_doc, 'NoregretsSMS', u'Noregrets SMS Documentation',
+     author, 'NoregretsSMS', 'One Tool to send and recieve SMS for your , deals , projects and Organisation ,Event , Party etc..',
      'Miscellaneous'),
 ]
 
@@ -193,8 +193,8 @@ intersphinx_mapping = {'https://docs.python.org/': None}
 todo_include_todos = True
 html_show_sourcelink = False
 html_show_sphinx = False
-html_baseurl = 'https://docs.workice.com/en/latest/'
-site_url = 'https://docs.workice.com/en/latest/'
+html_baseurl = 'https://noregrets.ug/console/docs'
+site_url = 'https://noregrets.ug/console/docs'
 html_favicon = 'images/favicon-32x32.png'
 def setup(app):
     app.add_stylesheet('css/custom.css')

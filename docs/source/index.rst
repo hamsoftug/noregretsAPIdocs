@@ -30,18 +30,7 @@ This documentation will help you learn all about creating projects, sending invo
    deals
    leads
    accounts
-   invoices
-   payments
-   creditnotes
-   projects
-   subscriptions
-   knowledgebase
-   estimates
-   contracts
-   tasks
-   expenses
-   calendar
-   tickets
+   invoices   
    reports
 
 .. _advanced-settings:

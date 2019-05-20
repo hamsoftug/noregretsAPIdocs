@@ -102,13 +102,13 @@ Parameters
 | tags[]        | optional   | Array list of tags e.g ``tags[design]``             |
 +---------------+------------+-----------------------------------------------------+
 
-``GET`` - /api/v1/invoices/{id}
+``GET`` - /api/v1/users/{id}
 -------------------------------
 Get invoice information
 
 .. code-block:: shell
 
-  GET /api/v1/invoices/{id}
+  GET /api/v1/users/{id}
   Accept: application/json
   Authorization: Bearer $AccessToken
 
@@ -116,43 +116,45 @@ Sample Response
 ^^^^^^^^^^^^^^^
 .. code-block:: json
 
+  [
   {
-    "type": "invoices",
-    "id": "80",
-    "attributes": {
-        "id": 80,
-        "reference_no": "INV-20181224-0080",
-        "title": "Richie Rodriguez Website Project",
-        "due_date": "2019-01-05T05:30:21+03:00",
-        "tax": "6.21",
-        "tax2": "0.00",
-        "discount": "9.16",
-        "currency": "USD",
-        "extra_fee": "0.00",
-        "status": "Not Paid",
-        "payable": "7508.13",
-        "tax_total": "480.43",
-        "paid_amount": "0.00",
-        "late_fee": "0.00",
-        "balance": "7508.13",
-        "business": {
-            "id": 10,
-            "name": "Herzog LLC",
-            "contact_person": "muller.william@example.com"
-        },
-        "created_at": "2018-12-24T05:30:23+03:00",
-        "updated_at": "2019-01-03T18:32:05+03:00"
-    }
+    "m_number": "UN47102220",
+    "lastname": "Stephen Barungi",
+    "firstname": "",
+    "other_names": "",
+    "gender": "N/A",
+    "contacts": [
+      {
+        "contact": "barungisteven@gmail.com"
+      },
+      {
+        "contact": "+256755168219"
+      }
+    ]
+  },
+  {
+    "m_number": "DV1088633736",
+    "lastname": "steve",
+    "firstname": "baros",
+    "other_names": "",
+    "gender": "",
+    "contacts": [
+      {
+        "contact": "sbarungi@cis.mak.ac.ug"
+      }
+    ]
   }
+]
 
 
-``PUT`` - /api/v1/invoices/{id}
+
+``PUT`` - /api/v1/users/{id}
 -------------------------------
 Update an invoice
 
 .. code-block:: shell
 
-  PUT /api/v1/invoices/{id}
+  PUT /api/v1/users/{id}
   Accept: application/json
   Authorization: Bearer $AccessToken
 
@@ -169,24 +171,6 @@ Parameters
 | title         | optional   | Invoice title                                       |
 +---------------+------------+-----------------------------------------------------+
 | client_id     | required   | Invoice client ID                                   |
-+---------------+------------+-----------------------------------------------------+
-| due_date      | required   | Invoice due date                                    |
-+---------------+------------+-----------------------------------------------------+
-| notes         | optional   | Invoice notes                                       |
-+---------------+------------+-----------------------------------------------------+
-| tax           | optional   | Invoice tax 1 percentage                            |
-+---------------+------------+-----------------------------------------------------+
-| tax2          | optional   | Invoice tax 2 percentage                            |
-+---------------+------------+-----------------------------------------------------+
-| extra_fee     | optional   | Invoice extra fee percentage                        |
-+---------------+------------+-----------------------------------------------------+
-| discount      | optional   | Invoice discount percentage                         |
-+---------------+------------+-----------------------------------------------------+
-| project_id    | optional   | Project ID related to Invoice                       |
-+---------------+------------+-----------------------------------------------------+
-| is_visible    | optional   | Set to 0 to hide invoice from client                |
-+---------------+------------+-----------------------------------------------------+
-| line_items[]  | optional   | Array of invoice items                              |
 +---------------+------------+-----------------------------------------------------+
 
 
@@ -2526,32 +2510,35 @@ Sample Response
 ^^^^^^^^^^^^^^^^
 .. code-block:: json
 
+  [
   {
-    "type": "todos",
-    "id": "1",
-    "attributes": {
-        "id": 1,
-        "subject": "Send proposal ",
-        "order": 0,
-        "parent": 0,
-        "due_date": "2019-01-07T00:00:00+03:00",
-        "notes": null,
-        "assignee": {
-            "id": 1,
-            "name": "William Mandai"
-        },
-        "reminded_at": null,
-        "entity": {
-            "id": 35,
-            "name": "VonRueden PLC Deal"
-        },
-        "is_visible": 0,
-        "completed": 0,
-        "user_id": 1,
-        "created_at": "2019-01-06T20:00:36+03:00",
-        "updated_at": "2019-01-06T20:00:36+03:00"
-    }
+    "m_number": "UN47102220",
+    "lastname": "Stephen Barungi",
+    "firstname": "",
+    "other_names": "",
+    "gender": "N/A",
+    "contacts": [
+      {
+        "contact": "barungisteven@gmail.com"
+      },
+      {
+        "contact": "+256755168219"
+      }
+    ]
+  },
+  {
+    "m_number": "DV1088633736",
+    "lastname": "steve",
+    "firstname": "baros",
+    "other_names": "",
+    "gender": "",
+    "contacts": [
+      {
+        "contact": "sbarungi@cis.mak.ac.ug"
+      }
+    ]
   }
+]
 
 
 ``PUT`` - /api/v1/todos/{id}

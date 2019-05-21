@@ -103,6 +103,74 @@ Parameters
 | tags[]        | optional   | Array list of tags e.g ``tags[design]``             |
 +---------------+------------+-----------------------------------------------------+
 
+
+Code Tabs
+========================================
+
+.. tabs::
+
+   .. code-tab:: c
+
+         C Main Function
+
+   .. code-tab:: c++
+
+         C++ Main Function
+
+   .. code-tab:: py
+
+         Python Main Function
+
+   .. code-tab:: java
+
+         Java Main Function
+
+   .. code-tab:: julia
+
+         Julia Main Function
+
+   .. code-tab:: fortran
+
+         Fortran Main Function
+
+.. tabs::
+
+   .. code-tab:: c
+
+         int main(const int argc, const char **argv) {
+           return 0;
+         }
+
+   .. code-tab:: c++
+
+         int main(const int argc, const char **argv) {
+           return 0;
+         }
+
+   .. code-tab:: py
+
+         def main():
+             return
+
+   .. code-tab:: java
+
+         class Main {
+             public static void main(String[] args) {
+             }
+         }
+
+   .. code-tab:: julia
+
+         function main()
+         end
+
+   .. code-tab:: fortran
+
+         PROGRAM main
+         END PROGRAM main
+
+
+
 ``GET`` - /api/v1/users/{id}
 -------------------------------
 Get invoice information

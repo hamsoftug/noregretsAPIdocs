@@ -1,7 +1,7 @@
 API
 ===
 .. meta::
-   :description: Send and Access your SMS , Create USERS Lists , Groups and configure WEBHOOKS using a RESTful API
+   :description: Send and Access your SMS , Create USERS Lists , Groups and configure WEBHOOKS using a RESTful API .
    :keywords: SMS,Receivers,senders,events,Lists,Groups,contacts,Bulk SMS, Delivery Reports , Feedback
 
 Noregrets provides a RESTful API. Below are the API Endpoints you can use;

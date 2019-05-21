@@ -1,21 +1,19 @@
 User Guide
 ==========
 .. meta::
-   :description: Workice CRM is web based invoicing for freelancers and small businesses. Create and send invoices and estimates, track time and expenses and accept online payments.
-   :keywords: projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon
-   :google-site-verification: 04wm9KLNfzd-GtMtIGF0alg6_Q-48EGQxYlDpVKUEto
+   :description: Noregrets SMS is a  web based messaging platform for freelancers and small businesses. You can easily send Bulk SMS, One to One SMS Messages on-line and get instant feed-backs from your recipients.Synchronizing and importing your contacts has been made easy,by doing this you can send one to one SMS messages bulk SMS to your customers as well as getting instant feedback.
+   :keywords: SMS,Receivers,senders,events,Lists,Groups,contacts,Bulk SMS, Delivery Reports , Feedback
+   :google-site-verification: googleb5da46de1aadea0d
 
-This documentation will help you learn all about creating projects, sending invoices, receiving payments, creating tasks, converting estimates to invoices, recurring invoices, creating creditnotes, support system and much more.
+This documentation will help you learn all about  using the dashboard system , Setting Your System with Our API and much more.
 
 .. _installation:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Installation
+   :caption: Configuration
 
-   install
-   configure
-   social_logins
+   
    update
    changelogs
    api
@@ -40,10 +38,5 @@ This documentation will help you learn all about creating projects, sending invo
    :caption: Advanced Settings
 
    system_settings
-   lead_settings
-   deal_settings
-   invoice_settings
    payment_settings
-   estimate_settings
-   email_templates
    translations

@@ -81,35 +81,20 @@ Parameters
 | message       | required   | the content of the message being sent               |
 +---------------+------------+-----------------------------------------------------+
 
-Code Tabs
-========================================
+Sample Code
+^^^^^^^^^^
+.. code-block:: php
+ 
 
-.. tabs::
+Sample Response
+^^^^^^^^^^^^^^^
+.. code-block:: json
 
-   .. code-tab:: c
+{"status":false,"message":""} 
 
-         C Main Function
+.. code-block:: json
 
-   .. code-tab:: c++
-
-         C++ Main Function
-
-   .. code-tab:: py
-
-         Python Main Function
-
-   .. code-tab:: java
-
-         Java Main Function
-
-   .. code-tab:: julia
-
-         Julia Main Function
-
-   .. code-tab:: fortran
-
-         Fortran Main Function
-
+{"status":true,"message":""}
 
 
 ``GET`` - /api/v1/users/{id}
@@ -121,6 +106,38 @@ Get invoice information
   GET /api/v1/users/{id}
   Accept: application/json
   Authorization: Bearer $AccessToken
+  
+  
+  Sample Code
+^^^^^^^^^^
+.. code-block:: php
+  <?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "http://api.noregrets.ug/V1/users?key=8g80kg4swkk00wwsggg4w48c408sk08048w0s84o",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 30,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "GET",
+  CURLOPT_SSL_VERIFYHOST => 0,
+  CURLOPT_SSL_VERIFYPEER => 0,
+));
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+curl_close($curl);
+
+if ($err) {
+  echo "cURL Error #:" . $err;
+} else {
+  echo $response;
+}
+  
 
 Sample Response
 ^^^^^^^^^^^^^^^

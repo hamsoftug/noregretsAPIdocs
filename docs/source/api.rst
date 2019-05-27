@@ -81,7 +81,21 @@ Parameters
 | message       | required   | the content of the message being sent               |
 +---------------+------------+-----------------------------------------------------+
 
+## Tabs 
 
+```curl
+$ curl -O wget http://example.com/pk.zip
+```
+
+```wget
+$ wget http://example.com/pk.zip
+```
+
+## Single block
+
+```
+$ ls -lisa
+```
 
 
 ``GET`` - /api/v1/users/{id}

@@ -25,11 +25,11 @@ This documentation will help you learn all about  using the dashboard system , S
    :caption: Basic Features
 
    introduction
-   deals
-   leads
-   accounts
-   invoices   
+   messages
+   users
+   groups  
    reports
+   webhooks
 
 .. _advanced-settings:
 

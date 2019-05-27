@@ -81,21 +81,35 @@ Parameters
 | message       | required   | the content of the message being sent               |
 +---------------+------------+-----------------------------------------------------+
 
-## Tabs 
+Code Tabs
+========================================
 
-```curl
-$ curl -O wget http://example.com/pk.zip
-```
+.. tabs::
 
-```wget
-$ wget http://example.com/pk.zip
-```
+   .. code-tab:: c
 
-## Single block
+         C Main Function
 
-```
-$ ls -lisa
-```
+   .. code-tab:: c++
+
+         C++ Main Function
+
+   .. code-tab:: py
+
+         Python Main Function
+
+   .. code-tab:: java
+
+         Java Main Function
+
+   .. code-tab:: julia
+
+         Julia Main Function
+
+   .. code-tab:: fortran
+
+         Fortran Main Function
+
 
 
 ``GET`` - /api/v1/users/{id}

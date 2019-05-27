@@ -44,8 +44,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.mathjax',
-    'sphinx_sitemap',
-	'sphinx_tabs.tabs'
+    'sphinx_sitemap'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -73,7 +72,7 @@ language = None
 exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = None
 
 
 # -- Options for HTML output -------------------------------------------------

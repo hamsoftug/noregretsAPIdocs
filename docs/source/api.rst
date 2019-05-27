@@ -22,7 +22,7 @@ To access the API, you first need to copy your Api Key. Go to https://noregrets.
 
 Authentication Errors
 """""""""""""""""""""
-If the bearer token is invalid or expired you will receive a response with the status code set to **HTTP 401 Unauthorized**.
+If the apiKey is invalid or expired you will receive a response with the status code set to **HTTP 401 Unauthorized**.
 
 If the access_token is valid but you don't have enough scope to perform this request you will receive a response with the status code set to **HTTP 403 Forbidden**.
 
@@ -55,18 +55,18 @@ HTTP-Headers
 | Authorization | Key $ApiKey | Replace with your API Key                      |
 +---------------+---------------------+-----------------------------------------------------+
 
-Invoices
+Messages
 """"""""""""
 
-``POST`` - /api/v1/invoices
+``POST`` - /api/v1/add-message
 -------------------------------
-Create new invoice
+Send a new message
 
 .. code-block:: shell
 
-  POST /api/v1/invoices
+  POST /api/v1/add-message
   Accept: application/json
-  Authorization: Bearer $AccessToken
+  Authorization: Key $ApiKey
 
 Parameters
 ^^^^^^^^^^
@@ -74,100 +74,13 @@ Parameters
 +---------------+------------+-----------------------------------------------------+
 | Name          | Required   | Description                                         |
 +===============+============+=====================================================+
-| reference_no  | optional   | Invoice reference code                              |
+| sender_no     | required   | the phone number routing the SMS through            |
 +---------------+------------+-----------------------------------------------------+
-| title         | optional   | Invoice title                                       |
+| receiver      | required   | the phone number of the person receving             |
 +---------------+------------+-----------------------------------------------------+
-| client_id     | required   | Invoice client ID                                   |
-+---------------+------------+-----------------------------------------------------+
-| due_date      | required   | Invoice due date                                    |
-+---------------+------------+-----------------------------------------------------+
-| currency      | required   | Invoice currency                                    |
-+---------------+------------+-----------------------------------------------------+
-| notes         | optional   | Invoice notes                                       |
-+---------------+------------+-----------------------------------------------------+
-| tax           | optional   | Invoice tax 1 percentage                            |
-+---------------+------------+-----------------------------------------------------+
-| tax2          | optional   | Invoice tax 2 percentage                            |
-+---------------+------------+-----------------------------------------------------+
-| extra_fee     | optional   | Invoice extra fee percentage                        |
-+---------------+------------+-----------------------------------------------------+
-| discount      | optional   | Invoice discount percentage                         |
-+---------------+------------+-----------------------------------------------------+
-| project_id    | optional   | Project ID related to invoic                        |
-+---------------+------------+-----------------------------------------------------+
-| is_visible    | optional   | Set to 0 to hide invoice from client                |
-+---------------+------------+-----------------------------------------------------+
-| line_items[]  | optional   | Array of invoice items                              |
-+---------------+------------+-----------------------------------------------------+
-| tags[]        | optional   | Array list of tags e.g ``tags[design]``             |
+| message       | required   | the content of the message being sent               |
 +---------------+------------+-----------------------------------------------------+
 
-
-Code Tabs
-========================================
-
-.. tabs::
-
-   .. code-tab:: c
-
-         C Main Function
-
-   .. code-tab:: c++
-
-         C++ Main Function
-
-   .. code-tab:: py
-
-         Python Main Function
-
-   .. code-tab:: java
-
-         Java Main Function
-
-   .. code-tab:: julia
-
-         Julia Main Function
-
-   .. code-tab:: fortran
-
-         Fortran Main Function
-
-.. tabs::
-
-   .. code-tab:: c
-
-         int main(const int argc, const char **argv) {
-           return 0;
-         }
-
-   .. code-tab:: c++
-
-         int main(const int argc, const char **argv) {
-           return 0;
-         }
-
-   .. code-tab:: py
-
-         def main():
-             return
-
-   .. code-tab:: java
-
-         class Main {
-             public static void main(String[] args) {
-             }
-         }
-
-   .. code-tab:: julia
-
-         function main()
-         end
-
-   .. code-tab:: fortran
-
-         PROGRAM main
-         END PROGRAM main
 
 
 

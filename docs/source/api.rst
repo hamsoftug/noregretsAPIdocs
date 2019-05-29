@@ -83,14 +83,14 @@ Parameters
 
 Sample Code
 ^^^^^^^^^^
-.. code-block:: php
- 
+.. code-block:: java
+  system.ou.println("Hello world");
 
 Sample Response
 ^^^^^^^^^^^^^^^
 .. code-block:: json
 
-{"status":false,"message":""} 
+  {"status":false,"message":""} 
 
 
 

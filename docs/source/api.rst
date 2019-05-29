@@ -92,9 +92,6 @@ Sample Response
 
 {"status":false,"message":""} 
 
-.. code-block:: json
-
-{"status":true,"message":""}
 
 
 ``GET`` - /api/v1/users/{id}
@@ -108,11 +105,11 @@ Get invoice information
   Authorization: Bearer $AccessToken
   
   
-  Sample Code
+Sample Code
 ^^^^^^^^^^
 .. code-block:: php
-  <?php
 
+  <?php
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
@@ -223,13 +220,15 @@ Get a list of all invoices
 
 ``GET`` - /api/v1/invoices/{id}/payments
 ----------------------------------------
-Show invoice payments
+
+
+Get al Groups
 
 .. code-block:: shell
 
-  GET /api/v1/invoices/{id}/payments
+  GET /api/v1/groups/{id}/
   Accept: application/json
-  Authorization: Key $AccessToken
+  Authorization: Key $ApiKey
 
 ``GET`` - /api/v1/invoices/{id}/comments
 ----------------------------------------
@@ -255,150 +254,73 @@ Show invoice product lines
 Expenses
 """""""""""""""""
 
-``POST`` - /api/v1/expenses
+``POST`` - /api/v1/groups
 -------------------------------
-Create a new expense
+Create a new group
 
 .. code-block:: shell
 
   POST /api/v1/expenses
   Accept: application/json
-  Authorization: Bearer $AccessToken
+  Authorization: Key $ApiKey
 
 Parameters
 ^^^^^^^^^^
 
 +---------------+------------+-----------------------------------------------------+
-| Name          | Required   | Description                                         |
+| Name          | Required   | Description or name of the group                    |
 +===============+============+=====================================================+
 | amount        | required   | Expense amount e.g 1500.00                          |
 +---------------+------------+-----------------------------------------------------+
-| category      | required   | Expense category                                    |
-+---------------+------------+-----------------------------------------------------+
-| expense_date  | required   | Expense date                                        |
-+---------------+------------+-----------------------------------------------------+
-| tax           | required   | Tax 1 percentage                                    |
-+---------------+------------+-----------------------------------------------------+
-| tax2          | required   | Tax 2 percentage                                    |
-+---------------+------------+-----------------------------------------------------+
-| currency      | optional   | Expense Currency                                    |
-+---------------+------------+-----------------------------------------------------+
-| billable      | optional   | Whether the expense is billable. Default 1          |
-+---------------+------------+-----------------------------------------------------+
-| notes         | optional   | Expense notes                                       |
-+---------------+------------+-----------------------------------------------------+
-| project_id    | optional   | Associated project ID if any                        |
-+---------------+------------+-----------------------------------------------------+
-| client_id     | optional   | Associated client ID if any                         |
-+---------------+------------+-----------------------------------------------------+
-| vendor        | optional   | Associated vendor name                              |
-+---------------+------------+-----------------------------------------------------+
-| is_visible    | optional   | Show/Hide expense from client. Default 0            |
-+---------------+------------+-----------------------------------------------------+
-| tags[]        | optional   | Array list of tags e.g ``tags[design]``             |
-+---------------+------------+-----------------------------------------------------+
 
-``GET`` - /api/v1/expenses/{id}
+``GET`` - /api/v1/groups/{id}
 --------------------------------
-Get expense information
+Get Group information
 
 .. code-block:: shell
 
-  GET /api/v1/expenses/{id}
+  GET /api/v1/groups/{id}
   Accept: application/json
-  Authorization: Bearer $AccessToken
+  Authorization: Key $ApiKey
 
 Sample Response
 ^^^^^^^^^^^^^^^^
 .. code-block:: json
 
   {
-    "type": "expenses",
-    "id": "10",
-    "attributes": {
-        "id": 10,
+    
+    "status": "true",
+	"message": "succees",
+    "data": {
+        "group_id": 10,
         "code": "EXP-AC0010",
-        "amount": "222.04",
-        "before_tax": "0.00",
-        "currency": "USD",
-        "billable": 1,
-        "category": 47,
-        "vendor": "Feil and Sons",
-        "tax": "0.95",
-        "tax2": null,
-        "taxed": null,
-        "expense_date": "2018-12-24T00:00:00+03:00",
-        "billed": false,
-        "project_id": 1,
-        "client_id": 2,
-        "invoiced_id": null,
-        "is_recurring": 0,
-        "frequency": null,
-        "next_recur_date": null,
-        "recur_starts": null,
-        "recur_ends": null,
-        "exchange_rate": "1.00000",
-        "is_visible": 0,
-        "notes": null,
-        "user_id": 1,
+        "group_name": "Schools",
         "created_at": "2018-12-24T05:30:44+03:00",
         "updated_at": "2018-12-24T05:30:44+03:00"
     }
   }
 
 
-``PUT`` - /api/v1/expenses/{id}
+``PUT`` - /api/v1/group/{id}
 --------------------------------
-Update an expense
+Update a group name
 
 .. code-block:: shell
 
-  PUT /api/v1/expenses/{id}
+  PUT /api/v1/groups/{id}
   Accept: application/json
-  Authorization: Bearer $AccessToken
+  Authorization: Key $ApiKey
 
 Parameters
 ^^^^^^^^^^
 
 +---------------+------------+-----------------------------------------------------+
-| Name          | Required   | Description                                         |
+| group_name    | Required   | New Description or name of the group                |
 +===============+============+=====================================================+
-| amount        | required   | Expense amount e.g 1500.00                          |
-+---------------+------------+-----------------------------------------------------+
-| category      | required   | Expense category                                    |
-+---------------+------------+-----------------------------------------------------+
-| expense_date  | required   | Expense date                                        |
-+---------------+------------+-----------------------------------------------------+
-| tax           | required   | Tax 1 percentage                                    |
-+---------------+------------+-----------------------------------------------------+
-| tax2          | required   | Tax 2 percentage                                    |
-+---------------+------------+-----------------------------------------------------+
-| currency      | optional   | Expense Currency                                    |
-+---------------+------------+-----------------------------------------------------+
-| billable      | optional   | Whether the expense is billable. Default 1          |
-+---------------+------------+-----------------------------------------------------+
-| notes         | optional   | Expense notes                                       |
-+---------------+------------+-----------------------------------------------------+
-| project_id    | optional   | Associated project ID if any                        |
-+---------------+------------+-----------------------------------------------------+
-| client_id     | optional   | Associated client ID if any                         |
-+---------------+------------+-----------------------------------------------------+
-| vendor        | optional   | Associated vendor name                              |
-+---------------+------------+-----------------------------------------------------+
-| is_visible    | optional   | Show/Hide expense from client. Default 0            |
-+---------------+------------+-----------------------------------------------------+
-| tags[]        | optional   | Array list of tags e.g ``tags[design]``             |
+| group_id       | required  | the id of the groupn to update                      |
 +---------------+------------+-----------------------------------------------------+
 
-``DELETE`` - /api/v1/expenses/{id}
------------------------------------
-Delete an expense
 
-.. code-block:: shell
-
-  DELETE /api/v1/expenses/{id}
-  Accept: application/json
-  Authorization: Bearer $AccessToken
 
 ``GET`` - /api/v1/expenses
 ----------------------------------------
@@ -980,7 +902,7 @@ Create a new contact
 
   POST /api/v1/contacts
   Accept: application/json
-  Authorization: Bearer $AccessToken
+  Authorization: Key $ApiKey
 
 Parameters
 ^^^^^^^^^^
@@ -991,15 +913,7 @@ Parameters
 +---------------+------------+-----------------------------------------------------+
 | email         | required   | Contact email address                               |
 +---------------+------------+-----------------------------------------------------+
-| username      | required   | Contact username                                    |
-+---------------+------------+-----------------------------------------------------+
-| company       | optional   | Contact Company ID                                  |
-+---------------+------------+-----------------------------------------------------+
-| password      | optional   | Contact login password                              |
-+---------------+------------+-----------------------------------------------------+
 | phone         | optional   | Contact Phone Number                                |
-+---------------+------------+-----------------------------------------------------+
-| invite        | optional   | Send email invitation. Set to 1 to send email       |
 +---------------+------------+-----------------------------------------------------+
 
 ``GET`` - /api/v1/contacts/{id}

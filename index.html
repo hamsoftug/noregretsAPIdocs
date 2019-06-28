@@ -1,0 +1,3058 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta content="Noregrets SMS is a  web based messaging platform for freelancers and small businesses. You can easily send Bulk SMS, One to One SMS Messages on-line and get instant feed-backs from your recipients.Synchronizing and importing your contacts has been made easy,by doing this you can send one to one SMS messages bulk SMS to your customers as well as getting instant feedback." name="description" />
+<meta content="SMS,Receivers,senders,events,Lists,Groups,contacts,Bulk SMS, Delivery Reports , Feedback" name="keywords" />
+<meta content="googleb5da46de1aadea0d" name="google-site-verification" />
+<meta content="Send and Access your SMS , Create USERS Lists , Groups and configure WEBHOOKS using a RESTful API ." name="description" />
+<meta content="SMS,Receivers,senders,events,Lists,Groups,contacts,Bulk SMS, Delivery Reports , Feedback" name="keywords" />
+<meta content="Built into a smart work flow that includes e-signatures for your freelancer e-contracts." name="description" />
+<meta content="projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon" name="keywords" />
+<meta content="Stay organized by keeping your clients, projects, hourly rates and deals in one place." name="description" />
+<meta content="projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon" name="keywords" />
+<meta content="Use Workice CRM's built-in calendar to schedule new events, sync them with your google calendar, and schedule reminders." name="description" />
+<meta content="projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon" name="keywords" />
+<meta content="Stay on track with your finances with dynamically generated reports, monthly and yearly reports, income and expenses summaries." name="description" />
+<meta content="projects,invoices,freelancer,deals,leads,crm,estimates,tickets,subscriptions,tasks,contacts,contracts,creditnotes,freelancer office,codecanyon" name="keywords" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Noregrets SMS v2 documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="_static/favicon-32x32.png"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/custom.css" type="text/css" />
+  <link rel="stylesheet" href="_static/_static/css/theme.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+
+<!-- RTD Extra Head -->
+
+<!-- 
+Always link to the latest version, as canonical.
+http://docs.readthedocs.org/en/latest/canonical.html
+-->
+<link rel="canonical" href="https://noregrets-sms-api.readthedocs.io/en/latest/" />
+
+<link rel="stylesheet" href="https://assets.readthedocs.org/static/css/readthedocs-doc-embed.css" type="text/css" />
+
+<script type="text/javascript" src="_static/readthedocs-data.js"></script>
+
+<!-- Add page-specific data, which must exist in the page js, not global -->
+<script type="text/javascript">
+READTHEDOCS_DATA['page'] = 'index'
+</script>
+
+<script type="text/javascript" src="https://assets.readthedocs.org/static/javascript/readthedocs-analytics.js"></script>
+
+<!-- end RTD <extrahead> -->
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html#document-index" class="icon icon-home"> Noregrets SMS
+          
+
+          
+          </a>
+
+          
+            
+            
+            
+              <div class="version">
+                latest
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><p class="caption"><span class="caption-text">Configuration</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-update">Update</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-changelogs">Changelogs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-api">API</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Basic Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-introduction">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-messages">Social Logins</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-users">Accounts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-groups">Calendar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-reports">Reports</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-webhooks">Knowledgebase</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Advanced Settings</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-system_settings">System Settings</a></li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html#document-index">Noregrets SMS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html#document-index">Docs</a> &raquo;</li>
+        
+      <li>Noregrets SMS v2 documentation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/hamsoftug/noregretsAPIdocs/blob/master/docs/source/index.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="user-guide">
+<h1>User Guide<a class="headerlink" href="#user-guide" title="Permalink to this headline">¶</a></h1>
+<p>This documentation will help you learn all about  using the dashboard system , Setting Your System with Our API and much more.</p>
+<div class="toctree-wrapper compound" id="installation">
+<span id="document-update"></span><div class="section" id="update">
+<h2>Update<a class="headerlink" href="#update" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">We recommend you having a backup your of your SMS database with all status.</p>
+</div>
+<p>To update your CRM got to <strong>Settings &gt; System info</strong> and click on <strong>Schedule Update</strong>.
+Enter the time when the app should update and timezone.</p>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">All Your requests  will be set to maintanance mode and maintanance status codes deisplayd when performing an update to the API and restored after the update process has completed.</p>
+</div>
+<p>If you’re moving your messages and receivers to another provider or servers make sure to request that data with the provided endpoints.</p>
+<p>You can manually run the update with the following command.</p>
+<div class="highlight-messages notranslate"><div class="highlight"><pre><span></span>      GET /api/v1/invoices
+Accept: application/json
+Authorization: Key: $ApiKey
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/messages/</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">You can see the detailed <a class="reference external" href="/changelog.html">changelogs</a> for each release.</p>
+</div>
+<div class="section" id="version-2-0">
+<h3>Version 2.0<a class="headerlink" href="#version-2-0" title="Permalink to this headline">¶</a></h3>
+<p>Copy .env.example to .env and set config settings</p>
+<p>Check that <code class="docutils literal notranslate"><span class="pre">/path/to/workspace/storage</span></code> has 755 permissions and is owned by the webserver user</p>
+</div>
+</div>
+<span id="document-changelogs"></span><div class="section" id="changelogs">
+<h2>Changelogs<a class="headerlink" href="#changelogs" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="version-2-0-0">
+<h3>Version 2.0.0<a class="headerlink" href="#version-2-0-0" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Initial release</li>
+</ul>
+</div>
+</div>
+<span id="document-api"></span><div class="section" id="api">
+<h2>API<a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h2>
+<p>Send and Access your SMS , Create USERS Lists , Groups and configure WEBHOOKS using a RESTful API .
+Noregrets provides a RESTful API. Below are the API Endpoints you can use;</p>
+<div class="section" id="authorization">
+<h3>Authorization<a class="headerlink" href="#authorization" title="Permalink to this headline">¶</a></h3>
+<p>To access the API, you first need to copy your Api Key. Go to <a class="reference external" href="https://noregrets.ug/#get_started">https://noregrets.ug/#get_started</a> create an account and login, on the left navigation menu next to the profile avatar image and  then click <a href="#id1"><span class="problematic" id="id2">**</span></a>Get API <a href="#id3"><span class="problematic" id="id4">**</span></a>. Upon Activation then Click on <a href="#id5"><span class="problematic" id="id6">**</span></a>Go to API Console ** In the Console click on your profile and and copy your API Key.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Insert your API Key directly into the authorization header on any API requests. Example below;</p>
+</div>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>curl -X GET
+-H <span class="s2">&quot;Authorization: Key &lt;api_key&gt;&quot;</span>
+-H <span class="s2">&quot;Content-Type: application/json&quot;</span>
+<span class="s2">&quot;https://{endpoint}/api/v1/messages&quot;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="authentication-errors">
+<h3>Authentication Errors<a class="headerlink" href="#authentication-errors" title="Permalink to this headline">¶</a></h3>
+<p>If the apiKey is invalid or expired you will receive a response with the status code set to <strong>HTTP 401 Unauthorized</strong>.</p>
+<p>If the access_token is valid but you don’t have enough scope to perform this request you will receive a response with the status code set to <strong>HTTP 403 Forbidden</strong>.</p>
+</div>
+<div class="section" id="http-codes">
+<h3>HTTP-Codes<a class="headerlink" href="#http-codes" title="Permalink to this headline">¶</a></h3>
+<p>Actions and errors yield different HTTP response codes.
+Please have a look at the expected response codes in the following list.</p>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">200</span></code> Request OK</li>
+<li><code class="docutils literal notranslate"><span class="pre">201</span></code> New resource created</li>
+<li><code class="docutils literal notranslate"><span class="pre">304</span></code> The resource has not been changed</li>
+<li><code class="docutils literal notranslate"><span class="pre">400</span></code> The request parameters are invalid</li>
+<li><code class="docutils literal notranslate"><span class="pre">401</span></code> The  provided api key is invalid</li>
+<li><code class="docutils literal notranslate"><span class="pre">403</span></code> You do not possess the required rights to access this resource.</li>
+<li><code class="docutils literal notranslate"><span class="pre">404</span></code> The resource could not be found / is unknown.</li>
+<li><code class="docutils literal notranslate"><span class="pre">415</span></code> The data could not be processed or the accept header is invalid.</li>
+<li><code class="docutils literal notranslate"><span class="pre">422</span></code> Could not save the entity</li>
+<li><code class="docutils literal notranslate"><span class="pre">500</span></code> An unexpected condition was encountered</li>
+<li><code class="docutils literal notranslate"><span class="pre">503</span></code> The server is not available (maintenance work).</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="http-headers">
+<h3>HTTP-Headers<a class="headerlink" href="#http-headers" title="Permalink to this headline">¶</a></h3>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">You must provide the following headers in each request:</p>
+</div>
+</div>
+<div class="section" id="messages">
+<h3>Messages<a class="headerlink" href="#messages" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="post-api-v1-add-message">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/add-message<a class="headerlink" href="#post-api-v1-add-message" title="Permalink to this headline">¶</a></h4>
+<p>Send a new message</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/add-message
+Accept: application/json
+Authorization: Key <span class="nv">$ApiKey</span>
+</pre></div>
+</div>
+<div class="section" id="parameters">
+<h5>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="19%" />
+<col width="15%" />
+<col width="66%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>sender_no</td>
+<td>required</td>
+<td>the phone number routing the SMS through</td>
+</tr>
+<tr class="row-odd"><td>receiver</td>
+<td>required</td>
+<td>the phone number of the person receving</td>
+</tr>
+<tr class="row-even"><td>message</td>
+<td>required</td>
+<td>the content of the message being sent</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="sample-code">
+<h5>Sample Code<a class="headerlink" href="#sample-code" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="sample-response">
+<h5>Sample Response<a class="headerlink" href="#sample-response" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+<p>{“status”:false,”message”:”“}</p>
+</div>
+</div>
+<div class="section" id="get-api-v1-users-id">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/users/{id}<a class="headerlink" href="#get-api-v1-users-id" title="Permalink to this headline">¶</a></h4>
+<p>Get invoice information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/users/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id7">
+<h5>Sample Code<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?php</span>
+</pre></div>
+</div>
+<p>$curl = curl_init();</p>
+<dl class="docutils">
+<dt>curl_setopt_array($curl, array(</dt>
+<dd>CURLOPT_URL =&gt; “<a class="reference external" href="http://api.noregrets.ug/V1/users?key=8g80kg4swkk00wwsggg4w48c408sk08048w0s84o">http://api.noregrets.ug/V1/users?key=8g80kg4swkk00wwsggg4w48c408sk08048w0s84o</a>”,
+CURLOPT_RETURNTRANSFER =&gt; true,
+CURLOPT_ENCODING =&gt; “”,
+CURLOPT_MAXREDIRS =&gt; 10,
+CURLOPT_TIMEOUT =&gt; 30,
+CURLOPT_HTTP_VERSION =&gt; CURL_HTTP_VERSION_1_1,
+CURLOPT_CUSTOMREQUEST =&gt; “GET”,
+CURLOPT_SSL_VERIFYHOST =&gt; 0,
+CURLOPT_SSL_VERIFYPEER =&gt; 0,</dd>
+</dl>
+<p>));</p>
+<p>$response = curl_exec($curl);
+$err = curl_error($curl);</p>
+<p>curl_close($curl);</p>
+<dl class="docutils">
+<dt>if ($err) {</dt>
+<dd>echo “cURL Error #:” . $err;</dd>
+<dt>} else {</dt>
+<dd>echo $response;</dd>
+</dl>
+<p>}</p>
+</div>
+<div class="section" id="id8">
+<h5>Sample Response<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">[</span>
+<span class="p">{</span>
+  <span class="nt">&quot;m_number&quot;</span><span class="p">:</span> <span class="s2">&quot;UN47102220&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;lastname&quot;</span><span class="p">:</span> <span class="s2">&quot;Stephen Barungi&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;firstname&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;other_names&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;gender&quot;</span><span class="p">:</span> <span class="s2">&quot;N/A&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;contacts&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="nt">&quot;contact&quot;</span><span class="p">:</span> <span class="s2">&quot;barungisteven@gmail.com&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nt">&quot;contact&quot;</span><span class="p">:</span> <span class="s2">&quot;+256755168219&quot;</span>
+    <span class="p">}</span>
+  <span class="p">]</span>
+<span class="p">},</span>
+<span class="p">{</span>
+  <span class="nt">&quot;m_number&quot;</span><span class="p">:</span> <span class="s2">&quot;DV1088633736&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;lastname&quot;</span><span class="p">:</span> <span class="s2">&quot;steve&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;firstname&quot;</span><span class="p">:</span> <span class="s2">&quot;baros&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;other_names&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;gender&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;contacts&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="nt">&quot;contact&quot;</span><span class="p">:</span> <span class="s2">&quot;sbarungi@cis.mak.ac.ug&quot;</span>
+    <span class="p">}</span>
+  <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>]</p>
+</div>
+</div>
+<div class="section" id="put-api-v1-users-id">
+<h4><code class="docutils literal notranslate"><span class="pre">PUT</span></code> - /api/v1/users/{id}<a class="headerlink" href="#put-api-v1-users-id" title="Permalink to this headline">¶</a></h4>
+<p>Update an invoice</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>PUT /api/v1/users/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: ApiKey <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id9">
+<h5>Parameters<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="19%" />
+<col width="15%" />
+<col width="66%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>id</td>
+<td>required</td>
+<td>Invoice ID</td>
+</tr>
+<tr class="row-odd"><td>reference_no</td>
+<td>optional</td>
+<td>Invoice reference code</td>
+</tr>
+<tr class="row-even"><td>title</td>
+<td>optional</td>
+<td>Invoice title</td>
+</tr>
+<tr class="row-odd"><td>client_id</td>
+<td>required</td>
+<td>Invoice client ID</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="delete-api-v1-invoices-id">
+<h4><code class="docutils literal notranslate"><span class="pre">DELETE</span></code> - /api/v1/invoices/{id}<a class="headerlink" href="#delete-api-v1-invoices-id" title="Permalink to this headline">¶</a></h4>
+<p>Delete invoice</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>DELETE /api/v1/invoices/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-invoices">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/invoices<a class="headerlink" href="#get-api-v1-invoices" title="Permalink to this headline">¶</a></h4>
+<p>Get a list of all invoices</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/invoices
+Accept: application/json
+Authorization: Key <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-invoices-id-payments">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/invoices/{id}/payments<a class="headerlink" href="#get-api-v1-invoices-id-payments" title="Permalink to this headline">¶</a></h4>
+<p>Get al Groups</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/groups/<span class="o">{</span>id<span class="o">}</span>/
+Accept: application/json
+Authorization: Key <span class="nv">$ApiKey</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-invoices-id-comments">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/invoices/{id}/comments<a class="headerlink" href="#get-api-v1-invoices-id-comments" title="Permalink to this headline">¶</a></h4>
+<p>Show invoice comments</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/invoices/<span class="o">{</span>id<span class="o">}</span>/comments
+Accept: application/json
+Authorization: Key <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-invoices-id-items">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/invoices/{id}/items<a class="headerlink" href="#get-api-v1-invoices-id-items" title="Permalink to this headline">¶</a></h4>
+<p>Show invoice product lines</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/invoices/<span class="o">{</span>id<span class="o">}</span>/items
+Accept: application/json
+Authorization: Key <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="expenses">
+<h3>Expenses<a class="headerlink" href="#expenses" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="post-api-v1-groups">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/groups<a class="headerlink" href="#post-api-v1-groups" title="Permalink to this headline">¶</a></h4>
+<p>Create a new group</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/expenses
+Accept: application/json
+Authorization: Key <span class="nv">$ApiKey</span>
+</pre></div>
+</div>
+<div class="section" id="id10">
+<h5>Parameters<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="19%" />
+<col width="15%" />
+<col width="66%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description or name of the group</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>amount</td>
+<td>required</td>
+<td>Expense amount e.g 1500.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="get-api-v1-groups-id">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/groups/{id}<a class="headerlink" href="#get-api-v1-groups-id" title="Permalink to this headline">¶</a></h4>
+<p>Get Group information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/groups/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Key <span class="nv">$ApiKey</span>
+</pre></div>
+</div>
+<div class="section" id="id11">
+<h5>Sample Response<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+
+  <span class="nt">&quot;status&quot;</span><span class="p">:</span> <span class="s2">&quot;true&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;message&quot;</span><span class="p">:</span> <span class="s2">&quot;succees&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;data&quot;</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nt">&quot;group_id&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+      <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;EXP-AC0010&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;group_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Schools&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;created_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:44+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;updated_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:44+03:00&quot;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="put-api-v1-group-id">
+<h4><code class="docutils literal notranslate"><span class="pre">PUT</span></code> - /api/v1/group/{id}<a class="headerlink" href="#put-api-v1-group-id" title="Permalink to this headline">¶</a></h4>
+<p>Update a group name</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>PUT /api/v1/groups/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Key <span class="nv">$ApiKey</span>
+</pre></div>
+</div>
+<div class="section" id="id12">
+<h5>Parameters<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="19%" />
+<col width="15%" />
+<col width="66%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">group_name</th>
+<th class="head">Required</th>
+<th class="head">New Description or name of the group</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td colspan="2">group_id       | required</td>
+<td>the id of the groupn to update</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="get-api-v1-expenses">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/expenses<a class="headerlink" href="#get-api-v1-expenses" title="Permalink to this headline">¶</a></h4>
+<p>Get a list of all expenses</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/expenses
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-expenses-id-comments">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/expenses/{id}/comments<a class="headerlink" href="#get-api-v1-expenses-id-comments" title="Permalink to this headline">¶</a></h4>
+<p>Show expense comments</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/expenses/<span class="o">{</span>id<span class="o">}</span>/comments
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="post-api-v1-expenses-id-copy">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/expenses/{id}/copy<a class="headerlink" href="#post-api-v1-expenses-id-copy" title="Permalink to this headline">¶</a></h4>
+<p>Duplicate expense</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/expenses/<span class="o">{</span>id<span class="o">}</span>/copy
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id13">
+<h5>Parameters<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="19%" />
+<col width="15%" />
+<col width="66%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>id</td>
+<td>required</td>
+<td>Expense ID</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="section" id="payments">
+<h3>Payments<a class="headerlink" href="#payments" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="post-api-v1-payments">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/payments<a class="headerlink" href="#post-api-v1-payments" title="Permalink to this headline">¶</a></h4>
+<p>Create a new payment</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/payments
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id14">
+<h5>Parameters<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="15%" />
+<col width="65%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>invoice_id</td>
+<td>required</td>
+<td>Invoice ID</td>
+</tr>
+<tr class="row-odd"><td>payment_date</td>
+<td>required</td>
+<td>Date when the payment was made</td>
+</tr>
+<tr class="row-even"><td>amount</td>
+<td>required</td>
+<td>Amount of payment made</td>
+</tr>
+<tr class="row-odd"><td>payment_method</td>
+<td>required</td>
+<td>Payment method ID</td>
+</tr>
+<tr class="row-even"><td>gateway</td>
+<td>required</td>
+<td><code class="docutils literal notranslate"><span class="pre">Must</span> <span class="pre">be</span> <span class="pre">set</span> <span class="pre">to</span> <span class="pre">offline</span></code></td>
+</tr>
+<tr class="row-odd"><td>notes</td>
+<td>optional</td>
+<td>Payment additional notes</td>
+</tr>
+<tr class="row-even"><td>currency</td>
+<td>optional</td>
+<td>Payment Currency</td>
+</tr>
+<tr class="row-odd"><td>send_email</td>
+<td>optional</td>
+<td>If an email should be sent to client. Default 1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="get-api-v1-payments-id">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/payments/{id}<a class="headerlink" href="#get-api-v1-payments-id" title="Permalink to this headline">¶</a></h4>
+<p>Get payment information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/payments/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id15">
+<h5>Sample Response<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;payments&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;10&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;attributes&quot;</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+      <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;PAY-20181224-0010&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;invoice_id&quot;</span><span class="p">:</span> <span class="mi">7</span><span class="p">,</span>
+      <span class="nt">&quot;payment_method&quot;</span><span class="p">:</span> <span class="s2">&quot;Cash&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;curreny&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;amount&quot;</span><span class="p">:</span> <span class="s2">&quot;73.68&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;notes&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;payment_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-19T05:30:31+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;exchange_rate&quot;</span><span class="p">:</span> <span class="s2">&quot;1.00000&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;project_id&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;refunded&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&quot;archived_at&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;business&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>
+          <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Rogahn-Gerhold&quot;</span><span class="p">,</span>
+          <span class="nt">&quot;contact_person&quot;</span><span class="p">:</span> <span class="s2">&quot;wiza.samanta@example.org&quot;</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;created_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:31+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;updated_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:31+03:00&quot;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="put-api-v1-payments-id">
+<h4><code class="docutils literal notranslate"><span class="pre">PUT</span></code> - /api/v1/payments/{id}<a class="headerlink" href="#put-api-v1-payments-id" title="Permalink to this headline">¶</a></h4>
+<p>Update a payment</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>PUT /api/v1/payments/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id16">
+<h5>Parameters<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="20%" />
+<col width="15%" />
+<col width="65%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>invoice_id</td>
+<td>required</td>
+<td>Invoice ID</td>
+</tr>
+<tr class="row-odd"><td>payment_date</td>
+<td>required</td>
+<td>Date when the payment was made</td>
+</tr>
+<tr class="row-even"><td>amount</td>
+<td>required</td>
+<td>Amount of payment made</td>
+</tr>
+<tr class="row-odd"><td>payment_method</td>
+<td>required</td>
+<td>Payment method ID</td>
+</tr>
+<tr class="row-even"><td>notes</td>
+<td>optional</td>
+<td>Payment additional notes</td>
+</tr>
+<tr class="row-odd"><td>currency</td>
+<td>optional</td>
+<td>Payment Currency</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="delete-api-v1-payments-id">
+<h4><code class="docutils literal notranslate"><span class="pre">DELETE</span></code> - /api/v1/payments/{id}<a class="headerlink" href="#delete-api-v1-payments-id" title="Permalink to this headline">¶</a></h4>
+<p>Delete a payment</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>DELETE /api/v1/payments/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-payments">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/payments<a class="headerlink" href="#get-api-v1-payments" title="Permalink to this headline">¶</a></h4>
+<p>Get a list of all payments</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/payments
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-payments-id-comments">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/payments/{id}/comments<a class="headerlink" href="#get-api-v1-payments-id-comments" title="Permalink to this headline">¶</a></h4>
+<p>Show estimate comments</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/payments/<span class="o">{</span>id<span class="o">}</span>/comments
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="post-api-v1-payments-id-refund">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/payments/{id}/refund<a class="headerlink" href="#post-api-v1-payments-id-refund" title="Permalink to this headline">¶</a></h4>
+<p>Mark a payment as refunded</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/payments/<span class="o">{</span>id<span class="o">}</span>/refund
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="contracts">
+<h3>Contracts<a class="headerlink" href="#contracts" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="post-api-v1-contracts">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/contracts<a class="headerlink" href="#post-api-v1-contracts" title="Permalink to this headline">¶</a></h4>
+<p>Create a new contracts</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/contracts
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id17">
+<h5>Parameters<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="24%" />
+<col width="14%" />
+<col width="62%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>contract_title</td>
+<td>required</td>
+<td>Contract title</td>
+</tr>
+<tr class="row-odd"><td>client_id</td>
+<td>required</td>
+<td>Client associated with the contract</td>
+</tr>
+<tr class="row-even"><td>start_date</td>
+<td>required</td>
+<td>Contract start date</td>
+</tr>
+<tr class="row-odd"><td>end_date</td>
+<td>required</td>
+<td>Contract end date</td>
+</tr>
+<tr class="row-even"><td>expiry_date</td>
+<td>required</td>
+<td>Number of days before a contract expires. E.g 14</td>
+</tr>
+<tr class="row-odd"><td>payment_terms</td>
+<td>optional</td>
+<td>Number of days. E.g 14</td>
+</tr>
+<tr class="row-even"><td>currency</td>
+<td>optional</td>
+<td>Contract Currency</td>
+</tr>
+<tr class="row-odd"><td>termination_notice</td>
+<td>optional</td>
+<td>Number of days to be notified before termination</td>
+</tr>
+<tr class="row-even"><td>rate_is_fixed</td>
+<td>optional</td>
+<td>If fixed rate. Default 0</td>
+</tr>
+<tr class="row-odd"><td>fixed_rate</td>
+<td>optional</td>
+<td>Contract fixed amount e.g 1500.00</td>
+</tr>
+<tr class="row-even"><td>hourly_rate</td>
+<td>optional</td>
+<td>Contract hourly rate</td>
+</tr>
+<tr class="row-odd"><td>description</td>
+<td>optional</td>
+<td>Contract description</td>
+</tr>
+<tr class="row-even"><td>license_owner</td>
+<td>optional</td>
+<td>Contract license owner. <code class="docutils literal notranslate"><span class="pre">freelancer</span> <span class="pre">or</span> <span class="pre">client</span></code></td>
+</tr>
+<tr class="row-odd"><td>late_payment_fee</td>
+<td>optional</td>
+<td>Late payment fee</td>
+</tr>
+<tr class="row-even"><td>late_fee_percent</td>
+<td>optional</td>
+<td>If late payment is percentage. Default 1</td>
+</tr>
+<tr class="row-odd"><td>cancelation_fee</td>
+<td>optional</td>
+<td>Contract cancellation fee</td>
+</tr>
+<tr class="row-even"><td>is_visible</td>
+<td>optional</td>
+<td>Show/hide contract from client</td>
+</tr>
+<tr class="row-odd"><td>deposit_required</td>
+<td>optional</td>
+<td>Amount of deposit required. E.g 1500.00</td>
+</tr>
+<tr class="row-even"><td>services</td>
+<td>optional</td>
+<td>List of contract services. E.g Web Design, SEO</td>
+</tr>
+<tr class="row-odd"><td>client_rights</td>
+<td>optional</td>
+<td>Rights granted to client</td>
+</tr>
+<tr class="row-even"><td>portfolio_rights</td>
+<td>optional</td>
+<td>Right to include work in portfolio. Default 1</td>
+</tr>
+<tr class="row-odd"><td>non_compete</td>
+<td>optional</td>
+<td>Add non-compete section. Default 1</td>
+</tr>
+<tr class="row-even"><td>appropriate_conduct</td>
+<td>optional</td>
+<td>Enable sexual harassment clause. Default 1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="get-api-v1-contracts-id">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/contracts/{id}<a class="headerlink" href="#get-api-v1-contracts-id" title="Permalink to this headline">¶</a></h4>
+<p>Get contract information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/contracts/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id18">
+<h5>Sample Response<a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;contracts&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;10&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;attributes&quot;</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+      <span class="nt">&quot;title&quot;</span><span class="p">:</span> <span class="s2">&quot;Dare LLC Contract&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;start_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:20+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;end_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2019-01-08T05:30:20+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;expiry_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-29T05:30:20+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;rate_is_fixed&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&quot;fixed_rate&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;hourly_rate&quot;</span><span class="p">:</span> <span class="s2">&quot;12.97&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;currency&quot;</span><span class="p">:</span> <span class="s2">&quot;USD&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;license_owner&quot;</span><span class="p">:</span> <span class="s2">&quot;client&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;payment_terms&quot;</span><span class="p">:</span> <span class="s2">&quot;6&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;late_payment_fee&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;late_fee_percent&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="nt">&quot;termination_notice&quot;</span><span class="p">:</span> <span class="mi">12</span><span class="p">,</span>
+      <span class="nt">&quot;cancelation_fee&quot;</span><span class="p">:</span> <span class="s2">&quot;11.19&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;deposit_required&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;signed&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&quot;services&quot;</span><span class="p">:</span> <span class="s2">&quot;Beatae blanditiis ea commodi et tempore est.&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;client_rights&quot;</span><span class="p">:</span> <span class="s2">&quot;Qui culpa qui consequatur architecto nam officia. Minus nulla odio sapiente delectus ut. Dolore nemo reprehenderit dolore odit eum consequuntur. Voluptate nesciunt et vero beatae sint ut.&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;portfolio_rights&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="nt">&quot;non_compete&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="nt">&quot;feedbacks&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&quot;appropriate_conduct&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="nt">&quot;annotations&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Necessitatibus totam qui nostrum ad non qui distinctio. Ipsam non sed deserunt recusandae non eum amet. Et quo quaerat enim voluptates pariatur. Dolor sint cum voluptatem enim. Et ratione deleniti aut deserunt eligendi itaque aut. Qui et eius non voluptatibus quos a sunt. Et rerum quia suscipit nisi. Voluptatem exercitationem culpa at quo deleniti. Reprehenderit repellat ullam nemo tempore amet optio. Et porro distinctio nostrum minus placeat. Voluptatum dolore ex in qui esse occaecati eum. Minus iste nostrum id laudantium. Vel ipsam qui expedita sed et laborum commodi unde. Temporibus fugit sint voluptas fuga.&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;viewed_at&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;sent_at&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;is_draft&quot;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+      <span class="nt">&quot;rejected_at&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;rejected_reason&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;user_id&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="nt">&quot;business&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+          <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Sipes-Schuster&quot;</span><span class="p">,</span>
+          <span class="nt">&quot;contact_person&quot;</span><span class="p">:</span> <span class="s2">&quot;ehauck@example.com&quot;</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;created_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:20+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;updated_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:20+03:00&quot;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="put-api-v1-contracts-id">
+<h4><code class="docutils literal notranslate"><span class="pre">PUT</span></code> - /api/v1/contracts/{id}<a class="headerlink" href="#put-api-v1-contracts-id" title="Permalink to this headline">¶</a></h4>
+<p>Update a contract</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>PUT /api/v1/contracts/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id19">
+<h5>Parameters<a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h5>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Same as the create new contract parameters</p>
+</div>
+</div>
+</div>
+<div class="section" id="delete-api-v1-contracts-id">
+<h4><code class="docutils literal notranslate"><span class="pre">DELETE</span></code> - /api/v1/contracts/{id}<a class="headerlink" href="#delete-api-v1-contracts-id" title="Permalink to this headline">¶</a></h4>
+<p>Delete a contract</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>DELETE /api/v1/contracts/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="clients">
+<h3>Clients<a class="headerlink" href="#clients" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="post-api-v1-clients">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/clients<a class="headerlink" href="#post-api-v1-clients" title="Permalink to this headline">¶</a></h4>
+<p>Create a new client</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/clients
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id20">
+<h5>Parameters<a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="19%" />
+<col width="3%" />
+<col width="12%" />
+<col width="3%" />
+<col width="64%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head" colspan="2">Required</th>
+<th class="head" colspan="2">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>name</td>
+<td colspan="2">required</td>
+<td colspan="2">Client Name</td>
+</tr>
+<tr class="row-odd"><td>email</td>
+<td colspan="2">required</td>
+<td colspan="2">Client email address</td>
+</tr>
+<tr class="row-even"><td>contact_email</td>
+<td colspan="2">required</td>
+<td colspan="2">Contact email address</td>
+</tr>
+<tr class="row-odd"><td>phone</td>
+<td colspan="2">optional</td>
+<td colspan="2">Client phone number</td>
+</tr>
+<tr class="row-even"><td>address1</td>
+<td colspan="2">optional</td>
+<td colspan="2">Address</td>
+</tr>
+<tr class="row-odd"><td>zip_code</td>
+<td colspan="2">optional</td>
+<td colspan="2">Zip Code</td>
+</tr>
+<tr class="row-even"><td>city</td>
+<td colspan="2">optional</td>
+<td colspan="2">City</td>
+</tr>
+<tr class="row-odd"><td>state</td>
+<td colspan="2">optional</td>
+<td colspan="2">State</td>
+</tr>
+<tr class="row-even"><td>locale</td>
+<td colspan="2">optional</td>
+<td colspan="2">Preferred locale</td>
+</tr>
+<tr class="row-odd"><td>country</td>
+<td colspan="2">optional</td>
+<td colspan="2">Country</td>
+</tr>
+<tr class="row-even"><td>tax_number</td>
+<td colspan="2">optional</td>
+<td colspan="2">Client tax number if any</td>
+</tr>
+<tr class="row-odd"><td>currency</td>
+<td colspan="2">optional</td>
+<td colspan="2">Preferred currency</td>
+</tr>
+<tr class="row-even"><td>website</td>
+<td colspan="2">required</td>
+<td colspan="2">Client website URL</td>
+</tr>
+<tr class="row-odd"><td>facebook</td>
+<td colspan="2">required</td>
+<td colspan="2">Client facebook link</td>
+</tr>
+<tr class="row-even"><td>twitter</td>
+<td colspan="2">optional</td>
+<td colspan="2">Twitter account URL</td>
+</tr>
+<tr class="row-odd"><td>skype</td>
+<td colspan="2">optional</td>
+<td colspan="2">Skype address</td>
+</tr>
+<tr class="row-even"><td>linkedin</td>
+<td colspan="2">optional</td>
+<td colspan="2">LinkedIn profile</td>
+</tr>
+<tr class="row-odd"><td>notes</td>
+<td colspan="2">optional</td>
+<td colspan="2">Additional notes</td>
+</tr>
+<tr class="row-even"><td colspan="5">tags[]        | optional   | Array list of tags e.g <code class="docutils literal notranslate"><span class="pre">tags[design]</span></code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="get-api-v1-clients-id">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/clients/{id}<a class="headerlink" href="#get-api-v1-clients-id" title="Permalink to this headline">¶</a></h4>
+<p>Get client information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/clients/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id21">
+<h5>Sample Response<a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;clients&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;100&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;attributes&quot;</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span>
+      <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Greenholt-Harris&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;COM00100&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;email&quot;</span><span class="p">:</span> <span class="s2">&quot;mclaughlin.jason@example.net&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;contact&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+          <span class="nt">&quot;email&quot;</span><span class="p">:</span> <span class="s2">&quot;admin@example.com&quot;</span><span class="p">,</span>
+          <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;William Mandai&quot;</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;address&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="nt">&quot;address1&quot;</span><span class="p">:</span> <span class="s2">&quot;402 Reynolds Trace\nNorth Lutherchester, SD 94456-5868&quot;</span><span class="p">,</span>
+          <span class="nt">&quot;address2&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+          <span class="nt">&quot;city&quot;</span><span class="p">:</span> <span class="s2">&quot;East Geo&quot;</span><span class="p">,</span>
+          <span class="nt">&quot;state&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+          <span class="nt">&quot;zipcode&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+          <span class="nt">&quot;country&quot;</span><span class="p">:</span> <span class="s2">&quot;Peru&quot;</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;website&quot;</span><span class="p">:</span> <span class="s2">&quot;https://hartmann.com&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;phone&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;mobile&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;tax_number&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;currency&quot;</span><span class="p">:</span> <span class="s2">&quot;USD&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;expense&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;balance&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;paid&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;social&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="nt">&quot;skype&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+          <span class="nt">&quot;facebook&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+          <span class="nt">&quot;twitter&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+          <span class="nt">&quot;linkedin&quot;</span><span class="p">:</span> <span class="kc">null</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;notes&quot;</span><span class="p">:</span> <span class="s2">&quot;Neque veritatis pariatur ut voluptatum. Qui officia molestias distinctio dicta quibusdam. Amet et adipisci ad eveniet.&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;logo&quot;</span><span class="p">:</span> <span class="s2">&quot;/storage/logos/tux_droid_1.jpg&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;unsubscribed_at&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;created_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:17+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;updated_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:17+03:00&quot;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="put-api-v1-clients-id">
+<h4><code class="docutils literal notranslate"><span class="pre">PUT</span></code> - /api/v1/clients/{id}<a class="headerlink" href="#put-api-v1-clients-id" title="Permalink to this headline">¶</a></h4>
+<p>Update client information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>PUT /api/v1/clients/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id22">
+<h5>Parameters<a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h5>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Same as the create new client API parameters</p>
+</div>
+</div>
+</div>
+<div class="section" id="delete-api-v1-clients-id">
+<h4><code class="docutils literal notranslate"><span class="pre">DELETE</span></code> - /api/v1/clients/{id}<a class="headerlink" href="#delete-api-v1-clients-id" title="Permalink to this headline">¶</a></h4>
+<p>Delete a client</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>DELETE /api/v1/clients/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-clients">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/clients<a class="headerlink" href="#get-api-v1-clients" title="Permalink to this headline">¶</a></h4>
+<p>Get a list of all clients</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/clients
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-clients-id-contacts">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/clients/{id}/contacts<a class="headerlink" href="#get-api-v1-clients-id-contacts" title="Permalink to this headline">¶</a></h4>
+<p>Show client contacts</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/clients/<span class="o">{</span>id<span class="o">}</span>/contacts
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-clients-id-projects">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/clients/{id}/projects<a class="headerlink" href="#get-api-v1-clients-id-projects" title="Permalink to this headline">¶</a></h4>
+<p>Show client projects</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/clients/<span class="o">{</span>id<span class="o">}</span>/projects
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-clients-id-invoices">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/clients/{id}/invoices<a class="headerlink" href="#get-api-v1-clients-id-invoices" title="Permalink to this headline">¶</a></h4>
+<p>Show client invoices</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/clients/<span class="o">{</span>id<span class="o">}</span>/invoices
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-clients-id-estimates">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/clients/{id}/estimates<a class="headerlink" href="#get-api-v1-clients-id-estimates" title="Permalink to this headline">¶</a></h4>
+<p>Show client estimates</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/clients/<span class="o">{</span>id<span class="o">}</span>/estimates
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-clients-id-payments">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/clients/{id}/payments<a class="headerlink" href="#get-api-v1-clients-id-payments" title="Permalink to this headline">¶</a></h4>
+<p>Show client payments</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/clients/<span class="o">{</span>id<span class="o">}</span>/payments
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-clients-id-subscriptions">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/clients/{id}/subscriptions<a class="headerlink" href="#get-api-v1-clients-id-subscriptions" title="Permalink to this headline">¶</a></h4>
+<p>Show client subscriptions</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/clients/<span class="o">{</span>id<span class="o">}</span>/subscriptions
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-clients-id-expenses">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/clients/{id}/expenses<a class="headerlink" href="#get-api-v1-clients-id-expenses" title="Permalink to this headline">¶</a></h4>
+<p>Show client expenses</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/clients/<span class="o">{</span>id<span class="o">}</span>/expenses
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-clients-id-deals">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/clients/{id}/deals<a class="headerlink" href="#get-api-v1-clients-id-deals" title="Permalink to this headline">¶</a></h4>
+<p>Show organization deals</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/clients/<span class="o">{</span>id<span class="o">}</span>/deals
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="contacts">
+<h3>Contacts<a class="headerlink" href="#contacts" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="post-api-v1-contacts">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/contacts<a class="headerlink" href="#post-api-v1-contacts" title="Permalink to this headline">¶</a></h4>
+<p>Create a new contact</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/contacts
+Accept: application/json
+Authorization: Key <span class="nv">$ApiKey</span>
+</pre></div>
+</div>
+<div class="section" id="id23">
+<h5>Parameters<a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="19%" />
+<col width="15%" />
+<col width="66%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>name</td>
+<td>required</td>
+<td>Contact Name</td>
+</tr>
+<tr class="row-odd"><td>email</td>
+<td>required</td>
+<td>Contact email address</td>
+</tr>
+<tr class="row-even"><td>phone</td>
+<td>optional</td>
+<td>Contact Phone Number</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="get-api-v1-contacts-id">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/contacts/{id}<a class="headerlink" href="#get-api-v1-contacts-id" title="Permalink to this headline">¶</a></h4>
+<p>Get contact information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/contacts/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id24">
+<h5>Sample Response<a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;contacts&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;10&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;attributes&quot;</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+      <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Johnathan Yundt I&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;job_title&quot;</span><span class="p">:</span> <span class="s2">&quot;Floral Designer&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;email&quot;</span><span class="p">:</span> <span class="s2">&quot;mackenzie46@example.org&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;avatar&quot;</span><span class="p">:</span> <span class="s2">&quot;/storage/avatars/avatar9.png&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;city&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;country&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;website&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;hourly_rate&quot;</span><span class="p">:</span> <span class="s2">&quot;17.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;business&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span>
+          <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Turcotte, Buckridge and Herman&quot;</span><span class="p">,</span>
+          <span class="nt">&quot;contact_person&quot;</span><span class="p">:</span> <span class="s2">&quot;luna66@example.net&quot;</span><span class="p">,</span>
+          <span class="nt">&quot;currency&quot;</span><span class="p">:</span> <span class="s2">&quot;USD&quot;</span><span class="p">,</span>
+          <span class="nt">&quot;balance&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+          <span class="nt">&quot;expense&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+          <span class="nt">&quot;paid&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;created_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:09+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;updated_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:16+03:00&quot;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="put-api-v1-contacts-id">
+<h4><code class="docutils literal notranslate"><span class="pre">PUT</span></code> - /api/v1/contacts/{id}<a class="headerlink" href="#put-api-v1-contacts-id" title="Permalink to this headline">¶</a></h4>
+<p>Update contact information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>PUT /api/v1/contacts/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id25">
+<h5>Parameters<a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h5>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Same as the create contact API parameters</p>
+</div>
+</div>
+</div>
+<div class="section" id="delete-api-v1-contacts-id">
+<h4><code class="docutils literal notranslate"><span class="pre">DELETE</span></code> - /api/v1/contacts/{id}<a class="headerlink" href="#delete-api-v1-contacts-id" title="Permalink to this headline">¶</a></h4>
+<p>Delete a contact</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>DELETE /api/v1/contacts/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-contacts">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/contacts<a class="headerlink" href="#get-api-v1-contacts" title="Permalink to this headline">¶</a></h4>
+<p>Get a list of all contacts</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/contacts
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="projects">
+<h3>Projects<a class="headerlink" href="#projects" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="post-api-v1-projects">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/projects<a class="headerlink" href="#post-api-v1-projects" title="Permalink to this headline">¶</a></h4>
+<p>Create a new projects</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/projects
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id26">
+<h5>Parameters<a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="11%" />
+<col width="74%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>name</td>
+<td>required</td>
+<td>Project Name</td>
+</tr>
+<tr class="row-odd"><td>client_id</td>
+<td>required</td>
+<td>Project client ID</td>
+</tr>
+<tr class="row-even"><td>start_date</td>
+<td>required</td>
+<td>Project start date</td>
+</tr>
+<tr class="row-odd"><td>due_date</td>
+<td>required</td>
+<td>Project due date</td>
+</tr>
+<tr class="row-even"><td>currency</td>
+<td>optional</td>
+<td>Project Currency</td>
+</tr>
+<tr class="row-odd"><td>description</td>
+<td>optional</td>
+<td>Description</td>
+</tr>
+<tr class="row-even"><td>hourly_rate</td>
+<td>optional</td>
+<td>Hourly rate</td>
+</tr>
+<tr class="row-odd"><td>fixed_price</td>
+<td>optional</td>
+<td>Fixed Price. E.g 3400.00</td>
+</tr>
+<tr class="row-even"><td>notes</td>
+<td>optional</td>
+<td>Project Notes</td>
+</tr>
+<tr class="row-odd"><td>manager</td>
+<td>optional</td>
+<td>User ID</td>
+</tr>
+<tr class="row-even"><td>estimate_hours</td>
+<td>optional</td>
+<td>Project Estimated hours</td>
+</tr>
+<tr class="row-odd"><td>billing_method</td>
+<td>optional</td>
+<td><code class="docutils literal notranslate"><span class="pre">hourly_staff_rate,</span> <span class="pre">hourly_task_rate,</span> <span class="pre">hourly_project_rate,</span> <span class="pre">fixed_rate</span></code></td>
+</tr>
+<tr class="row-even"><td>tags[]</td>
+<td>optional</td>
+<td>Array list of tags e.g <code class="docutils literal notranslate"><span class="pre">tags[design]</span></code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="get-api-v1-projects-id">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/projects/{id}<a class="headerlink" href="#get-api-v1-projects-id" title="Permalink to this headline">¶</a></h4>
+<p>Get project information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/projects/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id27">
+<h5>Sample Response<a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;projects&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;6&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;attributes&quot;</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span>
+      <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Rice, Doyle and Bauch Project&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;PRO0006&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Earum quia quis qui id minima et. Esse facere qui eligendi et eaque quia. Rerum corporis consequatur velit odit quam. Aliquam quia architecto et et repellendus. Molestiae et facilis neque dolor. Et laudantium totam aut et. Recusandae corrupti non maxime sed ratione eos ut. Cupiditate repellat harum quia dolor. Et voluptatum laboriosam ex nostrum sed necessitatibus repellat. Eveniet sunt enim est aut ea minima eos. Culpa nihil rem qui non sunt quia. Sed et adipisci porro dolore perferendis fugiat. Quisquam laboriosam quisquam et aspernatur. Rem vel ad facere enim cumque.&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;client_id&quot;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
+      <span class="nt">&quot;business&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
+          <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Ferry-Schuster&quot;</span><span class="p">,</span>
+          <span class="nt">&quot;contact_person&quot;</span><span class="p">:</span> <span class="s2">&quot;wiza.samanta@example.org&quot;</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;currency&quot;</span><span class="p">:</span> <span class="s2">&quot;USD&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;start_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T00:00:00+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;due_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2019-03-01T00:00:00+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;hourly_rate&quot;</span><span class="p">:</span> <span class="s2">&quot;59.38&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;fixed_price&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;progress&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&quot;notes&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;manager&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="nt">&quot;status&quot;</span><span class="p">:</span> <span class="s2">&quot;Active&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;estimate_hours&quot;</span><span class="p">:</span> <span class="s2">&quot;82.08&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;used_budget&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;billable_time&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;unbillable_time&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;unbilled&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;sub_total&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;total_expenses&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;contract_id&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;billing_method&quot;</span><span class="p">:</span> <span class="s2">&quot;hourly_project_rate&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;created_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:32+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;updated_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:32+03:00&quot;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="put-api-v1-projects-id">
+<h4><code class="docutils literal notranslate"><span class="pre">PUT</span></code> - /api/v1/projects/{id}<a class="headerlink" href="#put-api-v1-projects-id" title="Permalink to this headline">¶</a></h4>
+<p>Update project information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>PUT /api/v1/projects/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id28">
+<h5>Parameters<a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h5>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Same as the create new project API parameters</p>
+</div>
+</div>
+</div>
+<div class="section" id="delete-api-v1-projects-id">
+<h4><code class="docutils literal notranslate"><span class="pre">DELETE</span></code> - /api/v1/projects/{id}<a class="headerlink" href="#delete-api-v1-projects-id" title="Permalink to this headline">¶</a></h4>
+<p>Delete project</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>DELETE /api/v1/projects/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-projects">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/projects<a class="headerlink" href="#get-api-v1-projects" title="Permalink to this headline">¶</a></h4>
+<p>Get a list of all projects</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/projects
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-projects-id-invoices">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/projects/{id}/invoices<a class="headerlink" href="#get-api-v1-projects-id-invoices" title="Permalink to this headline">¶</a></h4>
+<p>Show project invoices</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/projects/<span class="o">{</span>id<span class="o">}</span>/invoices
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-projects-id-tasks">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/projects/{id}/tasks<a class="headerlink" href="#get-api-v1-projects-id-tasks" title="Permalink to this headline">¶</a></h4>
+<p>Show project tasks</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/projects/<span class="o">{</span>id<span class="o">}</span>/tasks
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-projects-id-expenses">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/projects/{id}/expenses<a class="headerlink" href="#get-api-v1-projects-id-expenses" title="Permalink to this headline">¶</a></h4>
+<p>Show project expenses</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/projects/<span class="o">{</span>id<span class="o">}</span>/expenses
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="post-api-v1-projects-id-done">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/projects/{id}/done<a class="headerlink" href="#post-api-v1-projects-id-done" title="Permalink to this headline">¶</a></h4>
+<p>Mark project as done</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/projects/<span class="o">{</span>id<span class="o">}</span>/done
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id29">
+<h5>Parameters<a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="11%" />
+<col width="74%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td colspan="3">id           | required   | Project ID</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="post-api-v1-projects-id-invoice">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/projects/{id}/invoice<a class="headerlink" href="#post-api-v1-projects-id-invoice" title="Permalink to this headline">¶</a></h4>
+<p>Invoice project</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/projects/<span class="o">{</span>id<span class="o">}</span>/invoice
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id30">
+<h5>Parameters<a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="11%" />
+<col width="74%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>invoice_style</td>
+<td>required</td>
+<td><code class="docutils literal notranslate"><span class="pre">single</span> <span class="pre">or</span> <span class="pre">task_line</span></code></td>
+</tr>
+<tr class="row-odd"><td>expense[]</td>
+<td>optional</td>
+<td>Array list of expense IDs to include</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="post-api-v1-projects-id-copy">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/projects/{id}/copy<a class="headerlink" href="#post-api-v1-projects-id-copy" title="Permalink to this headline">¶</a></h4>
+<p>Duplicate a project</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/projects/<span class="o">{</span>id<span class="o">}</span>/copy
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id31">
+<h5>Parameters<a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="11%" />
+<col width="74%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>id</td>
+<td>required</td>
+<td>Project ID</td>
+</tr>
+<tr class="row-odd"><td>parts[]</td>
+<td>optional</td>
+<td>Array list of what to clone e.g <code class="docutils literal notranslate"><span class="pre">parts[expenses],</span> <span class="pre">parts[tasks]</span></code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="section" id="tickets">
+<h3>Tickets<a class="headerlink" href="#tickets" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="post-api-v1-tickets">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/tickets<a class="headerlink" href="#post-api-v1-tickets" title="Permalink to this headline">¶</a></h4>
+<p>Create a new ticket</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/tickets
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id32">
+<h5>Parameters<a class="headerlink" href="#id32" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="11%" />
+<col width="74%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>department</td>
+<td>required</td>
+<td>Ticket department ID</td>
+</tr>
+<tr class="row-odd"><td>subject</td>
+<td>required</td>
+<td>Ticket subject</td>
+</tr>
+<tr class="row-even"><td>body</td>
+<td>required</td>
+<td>Ticket Message</td>
+</tr>
+<tr class="row-odd"><td>project_id</td>
+<td>optional</td>
+<td>Project ID associated with the ticket</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="get-api-v1-tickets-id">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/tickets/{id}<a class="headerlink" href="#get-api-v1-tickets-id" title="Permalink to this headline">¶</a></h4>
+<p>Get ticket information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/tickets/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id33">
+<h5>Sample Response<a class="headerlink" href="#id33" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;tickets&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;10&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;attributes&quot;</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+      <span class="nt">&quot;subject&quot;</span><span class="p">:</span> <span class="s2">&quot;Arvid Ticket&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;code&quot;</span><span class="p">:</span> <span class="s2">&quot;TKT-20181224-0010&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;body&quot;</span><span class="p">:</span> <span class="s2">&quot;Iure et laborum debitis quod veniam eum vel temporibus. Et id culpa asperiores molestiae qui animi ad necessitatibus. Ea unde corporis omnis. Minus est dignissimos cupiditate facere autem. Quia natus aliquam qui et. Incidunt et deleniti tempore ut repellat accusamus sed. Hic quasi dolores minima molestiae. Sint non cumque repellat alias vero et perspiciatis. Ad enim qui rerum libero. Labore aut voluptas dolores possimus tenetur. Vero maxime facilis aut debitis est quis dignissimos. Quae ipsa id nihil illo. In omnis ratione sunt quo est et officia. In repudiandae recusandae ipsa similique beatae adipisci.&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;status&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+          <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;open&quot;</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;department&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+          <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Billing&quot;</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;user_id&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+      <span class="nt">&quot;project_id&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;priority&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+          <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Low&quot;</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;due_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-27T00:00:00+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;closed_at&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;assignee&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+          <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;William Mandai&quot;</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;resolution_time&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&quot;archived_at&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+      <span class="nt">&quot;created_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:44+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;updated_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:44+03:00&quot;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="put-api-v1-tickets-id">
+<h4><code class="docutils literal notranslate"><span class="pre">PUT</span></code> - /api/v1/tickets/{id}<a class="headerlink" href="#put-api-v1-tickets-id" title="Permalink to this headline">¶</a></h4>
+<p>Update ticket information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>PUT /api/v1/tickets/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id34">
+<h5>Parameters<a class="headerlink" href="#id34" title="Permalink to this headline">¶</a></h5>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Same as the create new ticket API parameters above</p>
+</div>
+</div>
+</div>
+<div class="section" id="delete-api-v1-tickets-id">
+<h4><code class="docutils literal notranslate"><span class="pre">DELETE</span></code> - /api/v1/tickets/{id}<a class="headerlink" href="#delete-api-v1-tickets-id" title="Permalink to this headline">¶</a></h4>
+<p>Delete ticket</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>DELETE /api/v1/tickets/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-tickets">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/tickets<a class="headerlink" href="#get-api-v1-tickets" title="Permalink to this headline">¶</a></h4>
+<p>Get a list of all tickets</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/tickets
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-tickets-id-comments">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/tickets/{id}/comments<a class="headerlink" href="#get-api-v1-tickets-id-comments" title="Permalink to this headline">¶</a></h4>
+<p>Show ticket comments</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/tickets/<span class="o">{</span>id<span class="o">}</span>/comments
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="post-api-v1-tickets-id-status">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/tickets/{id}/status<a class="headerlink" href="#post-api-v1-tickets-id-status" title="Permalink to this headline">¶</a></h4>
+<p>Update ticket status</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/tickets/<span class="o">{</span>id<span class="o">}</span>/status
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id35">
+<h5>Parameters<a class="headerlink" href="#id35" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="11%" />
+<col width="74%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>status</td>
+<td>required</td>
+<td>Ticket status ID</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="section" id="tasks">
+<h3>Tasks<a class="headerlink" href="#tasks" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="post-api-v1-tasks">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/tasks<a class="headerlink" href="#post-api-v1-tasks" title="Permalink to this headline">¶</a></h4>
+<p>Create a new task</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/tasks
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id36">
+<h5>Parameters<a class="headerlink" href="#id36" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="1%" />
+<col width="9%" />
+<col width="1%" />
+<col width="74%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head" colspan="5">Name             | Required   | Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td colspan="2">project_id</td>
+<td colspan="2">required</td>
+<td>Project ID</td>
+</tr>
+<tr class="row-odd"><td colspan="2">user_id</td>
+<td colspan="2">required</td>
+<td>Task creator user id</td>
+</tr>
+<tr class="row-even"><td colspan="2">name</td>
+<td colspan="2">required</td>
+<td>Task Name</td>
+</tr>
+<tr class="row-odd"><td colspan="2">start_date</td>
+<td colspan="2">optional</td>
+<td>Task start date</td>
+</tr>
+<tr class="row-even"><td colspan="2">due_date</td>
+<td colspan="2">optional</td>
+<td>Task due date</td>
+</tr>
+<tr class="row-odd"><td colspan="2">hourly_rate</td>
+<td colspan="2">optional</td>
+<td>Hourly rate e.g 30.00</td>
+</tr>
+<tr class="row-even"><td colspan="2">milestone_id</td>
+<td colspan="2">optional</td>
+<td>Milestone ID</td>
+</tr>
+<tr class="row-odd"><td colspan="2">stage_id</td>
+<td colspan="2">optional</td>
+<td>Task stage ID</td>
+</tr>
+<tr class="row-even"><td colspan="2">team[]</td>
+<td colspan="2">optional</td>
+<td>Array list of team member ID’s</td>
+</tr>
+<tr class="row-odd"><td colspan="2">estimated_hours</td>
+<td colspan="2">optional</td>
+<td>Task estimated hours e.g 72</td>
+</tr>
+<tr class="row-even"><td colspan="2">description</td>
+<td colspan="2">optional</td>
+<td>Description</td>
+</tr>
+<tr class="row-odd"><td colspan="2">visible</td>
+<td colspan="2">optional</td>
+<td>Hide or show to client</td>
+</tr>
+<tr class="row-even"><td colspan="2">tags[]</td>
+<td colspan="2">optional</td>
+<td>Array list of tags e.g <code class="docutils literal notranslate"><span class="pre">tags[design]</span></code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="get-api-v1-tasks-id">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/tasks/{id}<a class="headerlink" href="#get-api-v1-tasks-id" title="Permalink to this headline">¶</a></h4>
+<p>Get task information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/tasks/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id37">
+<h5>Sample Response<a class="headerlink" href="#id37" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+  <span class="nt">&quot;type&quot;</span><span class="p">:</span> <span class="s2">&quot;tasks&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="s2">&quot;10&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;attributes&quot;</span><span class="p">:</span> <span class="p">{</span>
+      <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+      <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;McGlynn-Jaskolski Task&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;project&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+          <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Stracke PLC Project&quot;</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;milestone&quot;</span><span class="p">:</span> <span class="p">{</span>
+          <span class="nt">&quot;id&quot;</span><span class="p">:</span> <span class="kc">null</span><span class="p">,</span>
+          <span class="nt">&quot;name&quot;</span><span class="p">:</span> <span class="kc">null</span>
+      <span class="p">},</span>
+      <span class="nt">&quot;progress&quot;</span><span class="p">:</span> <span class="mi">94</span><span class="p">,</span>
+      <span class="nt">&quot;hourly_rate&quot;</span><span class="p">:</span> <span class="s2">&quot;4.08&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;estimated_hours&quot;</span><span class="p">:</span> <span class="s2">&quot;0.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;estimated_price&quot;</span><span class="p">:</span> <span class="s2">&quot;$0.00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;hours&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+      <span class="nt">&quot;start_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2019-01-07T00:00:00+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;due_date&quot;</span><span class="p">:</span> <span class="s2">&quot;2019-01-16T00:00:00+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Vel autem ea aperiam nihil. Consequatur neque omnis omnis ut fugiat amet dolores. Voluptates quisquam odit tenetur doloremque ipsa voluptates.&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;updated_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:32+03:00&quot;</span><span class="p">,</span>
+      <span class="nt">&quot;created_at&quot;</span><span class="p">:</span> <span class="s2">&quot;2018-12-24T05:30:32+03:00&quot;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="put-api-v1-tasks-id">
+<h4><code class="docutils literal notranslate"><span class="pre">PUT</span></code> - /api/v1/tasks/{id}<a class="headerlink" href="#put-api-v1-tasks-id" title="Permalink to this headline">¶</a></h4>
+<p>Update task information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>PUT /api/v1/tasks/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id38">
+<h5>Parameters<a class="headerlink" href="#id38" title="Permalink to this headline">¶</a></h5>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Same as the create task API parameters above</p>
+</div>
+</div>
+</div>
+<div class="section" id="delete-api-v1-tasks-id">
+<h4><code class="docutils literal notranslate"><span class="pre">DELETE</span></code> - /api/v1/tasks/{id}<a class="headerlink" href="#delete-api-v1-tasks-id" title="Permalink to this headline">¶</a></h4>
+<p>Delete a task</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>DELETE /api/v1/tasks/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-tasks">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/tasks<a class="headerlink" href="#get-api-v1-tasks" title="Permalink to this headline">¶</a></h4>
+<p>Get a list of all tasks</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/tasks
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="post-api-v1-tasks-id-copy">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/tasks/{id}/copy<a class="headerlink" href="#post-api-v1-tasks-id-copy" title="Permalink to this headline">¶</a></h4>
+<p>Duplicate a task</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/tasks/<span class="o">{</span>id<span class="o">}</span>/copy
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id39">
+<h5>Parameters<a class="headerlink" href="#id39" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="11%" />
+<col width="74%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>project_id</td>
+<td>required</td>
+<td>Project ID to copy task to</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="section" id="todos">
+<h3>Todos<a class="headerlink" href="#todos" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="post-api-v1-todos">
+<h4><code class="docutils literal notranslate"><span class="pre">POST</span></code> - /api/v1/todos<a class="headerlink" href="#post-api-v1-todos" title="Permalink to this headline">¶</a></h4>
+<p>Create a new todo</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>POST /api/v1/todos
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id40">
+<h5>Parameters<a class="headerlink" href="#id40" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="1%" />
+<col width="9%" />
+<col width="1%" />
+<col width="74%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head" colspan="5">Name             | Required   | Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td colspan="2">module</td>
+<td colspan="2">required</td>
+<td>Module related to todo e.g <code class="docutils literal notranslate"><span class="pre">deals,</span> <span class="pre">clients,</span> <span class="pre">leads</span></code></td>
+</tr>
+<tr class="row-odd"><td colspan="2">module_id</td>
+<td colspan="2">required</td>
+<td>Entity ID e.g <code class="docutils literal notranslate"><span class="pre">18</span></code></td>
+</tr>
+<tr class="row-even"><td colspan="2">subject</td>
+<td colspan="2">required</td>
+<td>Todo subject</td>
+</tr>
+<tr class="row-odd"><td colspan="2">due_date</td>
+<td colspan="2">optional</td>
+<td>Todo start date</td>
+</tr>
+<tr class="row-even"><td colspan="2">assignee</td>
+<td colspan="2">optional</td>
+<td>User ID of the person responsible</td>
+</tr>
+<tr class="row-odd"><td colspan="2">notes</td>
+<td colspan="2">optional</td>
+<td>Additional notes</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="get-api-v1-todos-id">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/todos/{id}<a class="headerlink" href="#get-api-v1-todos-id" title="Permalink to this headline">¶</a></h4>
+<p>Get todo information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/todos/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id41">
+<h5>Sample Response<a class="headerlink" href="#id41" title="Permalink to this headline">¶</a></h5>
+<div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">[</span>
+<span class="p">{</span>
+  <span class="nt">&quot;m_number&quot;</span><span class="p">:</span> <span class="s2">&quot;UN47102220&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;lastname&quot;</span><span class="p">:</span> <span class="s2">&quot;Stephen Barungi&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;firstname&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;other_names&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;gender&quot;</span><span class="p">:</span> <span class="s2">&quot;N/A&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;contacts&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="nt">&quot;contact&quot;</span><span class="p">:</span> <span class="s2">&quot;barungisteven@gmail.com&quot;</span>
+    <span class="p">},</span>
+    <span class="p">{</span>
+      <span class="nt">&quot;contact&quot;</span><span class="p">:</span> <span class="s2">&quot;+256755168219&quot;</span>
+    <span class="p">}</span>
+  <span class="p">]</span>
+<span class="p">},</span>
+<span class="p">{</span>
+  <span class="nt">&quot;m_number&quot;</span><span class="p">:</span> <span class="s2">&quot;DV1088633736&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;lastname&quot;</span><span class="p">:</span> <span class="s2">&quot;steve&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;firstname&quot;</span><span class="p">:</span> <span class="s2">&quot;baros&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;other_names&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;gender&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+  <span class="nt">&quot;contacts&quot;</span><span class="p">:</span> <span class="p">[</span>
+    <span class="p">{</span>
+      <span class="nt">&quot;contact&quot;</span><span class="p">:</span> <span class="s2">&quot;sbarungi@cis.mak.ac.ug&quot;</span>
+    <span class="p">}</span>
+  <span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>]</p>
+</div>
+</div>
+<div class="section" id="put-api-v1-todos-id">
+<h4><code class="docutils literal notranslate"><span class="pre">PUT</span></code> - /api/v1/todos/{id}<a class="headerlink" href="#put-api-v1-todos-id" title="Permalink to this headline">¶</a></h4>
+<p>Update todo information</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>PUT /api/v1/todos/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+<div class="section" id="id42">
+<h5>Parameters<a class="headerlink" href="#id42" title="Permalink to this headline">¶</a></h5>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="11%" />
+<col width="73%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Required</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>subject</td>
+<td>required</td>
+<td>Todo subject</td>
+</tr>
+<tr class="row-odd"><td>due_date</td>
+<td>optional</td>
+<td>Todo start date</td>
+</tr>
+<tr class="row-even"><td>assignee</td>
+<td>optional</td>
+<td>User ID of the person responsible</td>
+</tr>
+<tr class="row-odd"><td>notes</td>
+<td>optional</td>
+<td>Additional notes</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="delete-api-v1-todos-id">
+<h4><code class="docutils literal notranslate"><span class="pre">DELETE</span></code> - /api/v1/todos/{id}<a class="headerlink" href="#delete-api-v1-todos-id" title="Permalink to this headline">¶</a></h4>
+<p>Delete a todo</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>DELETE /api/v1/todos/<span class="o">{</span>id<span class="o">}</span>
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="get-api-v1-todos">
+<h4><code class="docutils literal notranslate"><span class="pre">GET</span></code> - /api/v1/todos<a class="headerlink" href="#get-api-v1-todos" title="Permalink to this headline">¶</a></h4>
+<p>Get a list of all todos</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>GET /api/v1/todos
+Accept: application/json
+Authorization: Bearer <span class="nv">$AccessToken</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="toctree-wrapper compound" id="basic-features">
+<span id="document-introduction"></span><div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://workice.com">Workice CRM</a> is a place for you to store information on the people and clients you interact with and track your outreach efforts. The CRM includes sales and marketing dashboards, invoicing dashboard, expenses dashboard, payments dashboard, projects and ticketing dashboards.</p>
+<p>To purchase Workice CRM visit <a class="reference external" href="https://codecanyon.net/user/gitbench">Envato Market</a></p>
+<div class="section" id="top-navigation">
+<h3>Top Navigation<a class="headerlink" href="#top-navigation" title="Permalink to this headline">¶</a></h3>
+<p>In your Workice account, click your login name next to your avatar in the top navigation bar.
+The following sections will appear in the dropdown menu:</p>
+<ul class="simple">
+<li>Settings - Your Profile settings including GDPR.</li>
+<li>Tell a friend - Like Workice CRM? Share it with a friend.</li>
+<li>Reminders - Shows a list of all your reminders.</li>
+<li>Notifications - A list of all your notifications.</li>
+<li>Canned Responses - Instead of repeatedly copying and pasting the same email response you can save time by using canned responses.</li>
+<li>Need Help? - Have an issue? Open a ticket with us directly within your Workice CRM.</li>
+</ul>
+</div>
+<div class="section" id="invoicing-dashboard">
+<h3>Invoicing Dashboard<a class="headerlink" href="#invoicing-dashboard" title="Permalink to this headline">¶</a></h3>
+<p>This is the first page you’ll see when you login. It provides a general overview of the invoicing status of your freelance business. The page displays the invoice-specific data that’s associated with your business. It also allows you to see the updates at a glance.</p>
+<p>The dashboard is designed to offer a simple yet powerful overview of your total business accounts:</p>
+<ul class="simple">
+<li><strong>Outstanding</strong>: The total amount of all unpaid invoices.</li>
+<li><strong>Invoiced</strong>: The total amount invoiced so far.</li>
+<li><strong>This Month</strong>: Total amount invoiced in the current month.</li>
+<li><strong>Last Month</strong>: Total amount of invoices created last month.</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">If you are being paid in a range of currencies, the dashboard will display the totals in your Base Currency.</p>
+</div>
+<p>Chart
+Below the stats boxes, you’ll see a chart presenting your invoicing data in an easy-to-understand graphical format. The data presented in the chart are total invoiced amount versus revenue collected in the current Year.</p>
+</div>
+<div class="section" id="sales-dashboard">
+<h3>Sales Dashboard<a class="headerlink" href="#sales-dashboard" title="Permalink to this headline">¶</a></h3>
+<p>Sales dashboard provides a general overview of deals and leads.</p>
+<p>The dashboard provides the information below:</p>
+<ul class="simple">
+<li><strong>Won Deals</strong>: Total amount of won deals.</li>
+<li><strong>Lost Deals</strong>: The total amount of lost deals.</li>
+<li><strong>This Month</strong>: Total amount of deals this month.</li>
+<li><strong>Forecasted</strong>: Get an idea of the revenue projection for your company.</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">If you are being paid in a range of currencies, the dashboard will display the totals in your Base Currency.</p>
+</div>
+<p>Chart
+Below the stats boxes, you’ll see a chart presenting your sales data in an easy-to-understand graphical format. The data presented in the chart are total won deals versus lost deals in the current Year.</p>
+</div>
+<div class="section" id="expenses-dashboard">
+<h3>Expenses Dashboard<a class="headerlink" href="#expenses-dashboard" title="Permalink to this headline">¶</a></h3>
+<p>Expenses dashboard provides a general overview of your expenses.</p>
+<p>The dashboard provides the information below:</p>
+<ul class="simple">
+<li><strong>Billed</strong>: Total amount of billed expenses.</li>
+<li><strong>Unbillable</strong>: Total amount of unbillable expenses.</li>
+<li><strong>This Month</strong>: Total amount of expenses this month.</li>
+<li><strong>Last Month</strong>: Total amount of expenses last month.</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">If you are being paid in a range of currencies, the dashboard will display the totals in your Base Currency.</p>
+</div>
+<p>Chart
+Below the stats boxes, you’ll see a chart presenting your expenses data in an easy-to-understand graphical format. The data presented in the chart are total amount of expenses billable versus total amount billed in the current Year.</p>
+</div>
+<div class="section" id="payments-dashboard">
+<h3>Payments Dashboard<a class="headerlink" href="#payments-dashboard" title="Permalink to this headline">¶</a></h3>
+<p>Payment dashboard provides a general overview of your payments status of your freelance business.</p>
+<p>The dashboard provides the information below:</p>
+<ul class="simple">
+<li><strong>Receipts</strong>: Total amount received so far.</li>
+<li><strong>Credits</strong>: Total amount of creditnotes issued.</li>
+<li><strong>This Month</strong>: Total amount of payments received this month.</li>
+<li><strong>Last Month</strong>: Total amount of payments received last month.</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">If you are being paid in a range of currencies, the dashboard will display the totals in your Base Currency.</p>
+</div>
+<p>Chart
+Below the stats boxes, you’ll see a chart presenting your payments data in an easy-to-understand graphical format. The data presented in the chart are total amount of payments received versus total amount creditnotes issued in the current Year.</p>
+</div>
+<div class="section" id="projects-dashboard">
+<h3>Projects Dashboard<a class="headerlink" href="#projects-dashboard" title="Permalink to this headline">¶</a></h3>
+<p>Project dashboard provides a general overview of your project status of your freelance business.</p>
+<p>The dashboard provides the information below:</p>
+<ul class="simple">
+<li><strong>Active</strong>: Total number of active projects.</li>
+<li><strong>Done</strong>: Total number of completed projects.</li>
+<li><strong>Pending Tasks</strong>: Total number of pending tasks.</li>
+<li><strong>Done Tasks</strong>: Total number of completed tasks.</li>
+</ul>
+<p>Chart
+Below the stats boxes, you’ll see a chart presenting your projects data in an easy-to-understand graphical format. The data presented in the chart are total number of projects, tasks and issues in the current Year.</p>
+</div>
+<div class="section" id="ticketing-dashboard">
+<h3>Ticketing Dashboard<a class="headerlink" href="#ticketing-dashboard" title="Permalink to this headline">¶</a></h3>
+<p>Ticketing dashboard provides a general overview of your support status for your freelance business.</p>
+<p>The dashboard provides the information below:</p>
+<ul class="simple">
+<li><strong>Open</strong>: Total number of open tickets.</li>
+<li><strong>Closed</strong>: Total number of closed tickets.</li>
+<li><strong>Tickets</strong>: Total number tickets.</li>
+<li><strong>Response Time</strong>: Average amount of time used to solve a ticket</li>
+</ul>
+<p>Chart
+Below the stats boxes, you’ll see a chart presenting your tickets data in an easy-to-understand graphical format. The data presented in the chart are total number of tickets versus the number of ticket replies in the current Year.</p>
+</div>
+<div class="section" id="right-sidebar-activities">
+<h3>Right Sidebar: Activities<a class="headerlink" href="#right-sidebar-activities" title="Permalink to this headline">¶</a></h3>
+<p>The Activity list is incredibly useful as it presents an up-to-date, action-packed summary of what is happening across your entire CRM. Every action taken, whether by you or by one of your clients, is listed in chronological order, together with the date the action occurred.</p>
+</div>
+</div>
+<span id="document-messages"></span><div class="section" id="social-logins">
+<h2>Social Logins<a class="headerlink" href="#social-logins" title="Permalink to this headline">¶</a></h2>
+<p>In addition to typical, form based authentication, <a class="reference external" href="https://workice.com">Workice CRM</a> also provides a simple, convenient way to authenticate with OAuth providers.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Workice CRM currently supports authentication with <strong>Facebook, Twitter, LinkedIn, Google, GitHub and GitLab</strong></p>
+</div>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">Before using Social Logins, you will have to enable it in <strong>Settings</strong> &gt; <strong>System Settings</strong>. Activate the <strong>Social Login</strong> checkbox.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">New user accounts will be created if they do not exist.</p>
+</div>
+<div class="section" id="facebook-configuration">
+<h3>Facebook Configuration<a class="headerlink" href="#facebook-configuration" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Start by creating a <a class="reference external" href="https://developers.facebook.com/apps">Facebook Application on the Developers Console</a>.</li>
+<li>Copy your newly created application <strong>App ID</strong> and <strong>App Secret</strong></li>
+<li>Open your .env file located in your Root folder and set <code class="docutils literal notranslate"><span class="pre">FACEBOOK_CLIENT_ID={YOUR-APP-ID}</span></code> and <code class="docutils literal notranslate"><span class="pre">FACEBOOK_CLIENT_SECRET={YOUR-APP-SECRET}</span></code>.</li>
+<li>Still in your facebook developer console, under <strong>Valid OAuth Redirect URIs</strong> enter your redirect url as <code class="docutils literal notranslate"><span class="pre">https://your-domain.com/callback/facebook</span></code>. Example; If you have installed workice in <a class="reference external" href="https://example.com">https://example.com</a> then the callback url will be <code class="docutils literal notranslate"><span class="pre">https://example.com/callback/facebook</span></code>.</li>
+<li>Now your users can login using Facebook.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="twitter-configuration">
+<h3>Twitter Configuration<a class="headerlink" href="#twitter-configuration" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Start by creating a <a class="reference external" href="https://developer.twitter.com/en/dashboard">Twitter Application on the Developers Console</a>.</li>
+<li>Copy your newly created application Consumer API Keys <strong>API key</strong> and <strong>API secret key</strong></li>
+<li>Open your .env file located in your Root folder and set <code class="docutils literal notranslate"><span class="pre">TWITTER_CLIENT_ID={YOUR-API-KEY}</span></code> and <code class="docutils literal notranslate"><span class="pre">TWITTER_CLIENT_SECRET={YOUR-API-SECRET}</span></code>.</li>
+<li>Still in your twitter developer console, under <strong>Callback URLs</strong> enter your redirect url as <code class="docutils literal notranslate"><span class="pre">https://your-domain.com/callback/twitter</span></code>. Example; If you have installed workice in <a class="reference external" href="https://example.com">https://example.com</a> then the callback url will be <code class="docutils literal notranslate"><span class="pre">https://example.com/callback/twitter</span></code>.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="google-configuration">
+<h3>Google Configuration<a class="headerlink" href="#google-configuration" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Start by creating <a class="reference external" href="https://console.developers.google.com">Google Application on the Developers Console</a>.</li>
+<li>Copy your newly created application <strong>Client ID</strong> and <strong>Client Secret</strong></li>
+<li>Open your .env file located in your Root folder and set <code class="docutils literal notranslate"><span class="pre">GOOGLE_CLIENT_ID={YOUR-CLIENT-ID}</span></code> and <code class="docutils literal notranslate"><span class="pre">GOOGLE_CLIENT_SECRET={YOUR-SECRET-KEY}</span></code>.</li>
+<li>Still in your google developer console, under <strong>Authorized redirect URIs</strong> enter your redirect url as <code class="docutils literal notranslate"><span class="pre">https://your-domain.com/callback/google</span></code>. Example; If you have installed workice in <a class="reference external" href="https://example.com">https://example.com</a> then the callback url will be <code class="docutils literal notranslate"><span class="pre">https://example.com/callback/google</span></code>.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="github-configuration">
+<h3>Github Configuration<a class="headerlink" href="#github-configuration" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Start by creating <a class="reference external" href="https://github.com/settings/developers">Github Application on the Developers Console</a>.</li>
+<li>Copy your newly created application <strong>Client ID</strong> and <strong>Client Secret</strong></li>
+<li>Open your .env file located in your Root folder and set <code class="docutils literal notranslate"><span class="pre">GITHUB_CLIENT_ID={YOUR-CLIENT-ID}</span></code> and <code class="docutils literal notranslate"><span class="pre">GITHUB_CLIENT_SECRET={YOUR-SECRET-KEY}</span></code>.</li>
+<li>Still in your github developer console, under <strong>Authorization callback URL</strong> enter your redirect url as <code class="docutils literal notranslate"><span class="pre">https://your-domain.com/callback/github</span></code>. Example; If you have installed workice in <a class="reference external" href="https://example.com">https://example.com</a> then the callback url will be <code class="docutils literal notranslate"><span class="pre">https://example.com/callback/github</span></code>.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="linkedin-configuration">
+<h3>LinkedIn Configuration<a class="headerlink" href="#linkedin-configuration" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Start by creating <a class="reference external" href="https://www.linkedin.com/developers/apps">LinkedIn Application on the Developers Console</a>.</li>
+<li>Copy your newly created application <strong>Client ID</strong> and <strong>Client Secret</strong></li>
+<li>Open your .env file located in your Root folder and set <code class="docutils literal notranslate"><span class="pre">LINKEDIN_CLIENT_ID={YOUR-CLIENT-ID}</span></code> and <code class="docutils literal notranslate"><span class="pre">LINKEDIN_CLIENT_SECRET={YOUR-SECRET-KEY}</span></code>.</li>
+<li>Still in your linkedin developer console, under <strong>Redirect URLs</strong> enter your redirect url as <code class="docutils literal notranslate"><span class="pre">https://your-domain.com/callback/linkedin</span></code>. Example; If you have installed workice in <a class="reference external" href="https://example.com">https://example.com</a> then the callback url will be <code class="docutils literal notranslate"><span class="pre">https://example.com/callback/linkedin</span></code>.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="gitlab-configuration">
+<h3>Gitlab Configuration<a class="headerlink" href="#gitlab-configuration" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Start by creating <a class="reference external" href="https://gitlab.com/profile/applications">Gitlab Application in Applications Settings</a>.</li>
+<li>Enter your <strong>Redirect URI</strong>. Example; If you have installed workice in <a class="reference external" href="https://example.com">https://example.com</a> then the callback url will be <code class="docutils literal notranslate"><span class="pre">https://example.com/callback/gitlab</span></code>. (Use 1 line per URI)</li>
+<li>Under <strong>Scopes</strong> check the <strong>API</strong> checkbox to enable it</li>
+<li>Copy your newly created application <strong>Application ID</strong> and <strong>Secret</strong></li>
+<li>Open your .env file located in your Root folder and set <code class="docutils literal notranslate"><span class="pre">GITLAB_CLIENT_ID={YOUR-APPLICATION-ID}</span></code> and <code class="docutils literal notranslate"><span class="pre">GITLAB_CLIENT_SECRET={YOUR-SECRET-KEY}</span></code>.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<span id="document-users"></span><div class="section" id="accounts">
+<h2>Accounts<a class="headerlink" href="#accounts" title="Permalink to this headline">¶</a></h2>
+<p>Your clients are the core of your freelance business. Accounts/Clients in <a class="reference external" href="https://workice.com/">WorkiceCRM</a> will typically hold all information specific to a company that your organisation will have a relationship with. In real world terms an Account may be a business entity that is a qualified Sales Prospect, Customer, Supplier or Re-seller and can be used to track all interactions that take place between these entities and your organisation. The relationship between the account and contact records is one-to-many, such that there can be many contacts associated with a single account.</p>
+<div class="section" id="contacts">
+<h3>Contacts<a class="headerlink" href="#contacts" title="Permalink to this headline">¶</a></h3>
+<p>In Workice, a Contact is an individual who is typically associated with an Account (organisation) or Opportunity (qualified prospect). For example if Apple is the Account, then John Smith, Sales Manager of Apple is the Contact. This module holds all information relating to these individuals and also provides a vantage point for any history relating to a Contact record, for example if they sent you an Email.</p>
+</div>
+<div class="section" id="list-accounts">
+<h3>List Accounts<a class="headerlink" href="#list-accounts" title="Permalink to this headline">¶</a></h3>
+<p>The Accounts page is a list page that presents a summary of all your clients in a user-friendly table. Think of Accounts page as the “central station” of your client activity. Most of your day-to-day invoicing actions can be taken from the various links and buttons that appear on the Accounts page. And you can use the Accounts page as your starting point to explore more in-depth client information, view client projects, view client estimates, and more. Now, we’ll take a closer look at the setup of the Clients page, and the range of actions available to you on the Accounts page.</p>
+<p>To view your client list page, go to the main sidebar and click the Accounts tab.</p>
+<div class="section" id="overview">
+<h4>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h4>
+<p>The Clients page presents a list summary of all your current clients in a table format. The main elements of the table include:</p>
+<ul class="simple">
+<li><strong>Name:</strong> The name of the client</li>
+<li><strong>Contact Person:</strong> The name of the primary contact person</li>
+<li><strong>Email:</strong> The client email address</li>
+<li><strong>Balance:</strong> The client’s payment balance</li>
+<li><strong>Expenses:</strong> The client’s unbilled expenses</li>
+</ul>
+</div>
+</div>
+<div class="section" id="create-account">
+<h3>Create Account<a class="headerlink" href="#create-account" title="Permalink to this headline">¶</a></h3>
+<p>So, you’ve taken on a new client? Congratulations!</p>
+<p>Your Clients list is at the heart of your invoicing activity, so it’s really important to maintain current information on all your clients. When you start working with a new client, the first thing you’ll need to do is to add the new client by entering their contact information and business details.</p>
+<p>When creating and saving a new client to your Accounts list, make sure to have the relevant, up-to-date information at hand. You are only required to enter the information one time. WorkiceCRM automatically tracks all invoicing,projects,estimates and payment activity for each client.</p>
+<p><strong>Account Creation</strong></p>
+<p>To create accounts individually.</p>
+<div class="line-block">
+<div class="line">In the Accounts module, click (Create button) to add a new account.</div>
+<div class="line">In the Create Account page, enter the account details.</div>
+<div class="line">Click Save</div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">The Create Account page is divided into four sections. Enter the information in the relevant fields.</p>
+</div>
+<p>Let’s take a closer look at each section:</p>
+<ul class="simple">
+<li><strong>General</strong>: Enter details about your client’s business/company/organization, including the company name, email, contact person, tax number and tags (optional).</li>
+<li><strong>Contact</strong>: Enter contact details related to your client including phone number, address, currency, preferred locale and a logo (optional).</li>
+<li><strong>Web</strong>: Enter your client social media or website data.</li>
+<li><strong>Custom Fields</strong>: If there are any custom fields for clients, it will be displayed here.</li>
+</ul>
+</div>
+<div class="section" id="account-overview-page">
+<h3>Account Overview Page<a class="headerlink" href="#account-overview-page" title="Permalink to this headline">¶</a></h3>
+<p>Once you have created an account, you can view the details of the account in the record’s details page. The details page of an account presents information related to the account - for example, contacts, projects, invoices, deals, payments, expenses, subscriptions and so on - in a single location.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">If you entered the client’s street address, a Google map appears below the information box displaying the client’s location.</p>
+</div>
+<div class="section" id="invoices-section">
+<h4>Invoices Section<a class="headerlink" href="#invoices-section" title="Permalink to this headline">¶</a></h4>
+<p>The Invoices section shows a list of all the client’s invoices and accompanying information.</p>
+<ul class="simple">
+<li><strong>Invoice Reference</strong>: The invoice number</li>
+<li><strong>Date Issued</strong>: The date the invoice was created</li>
+<li><strong>Amount</strong>: The invoice amount</li>
+<li><strong>Balance</strong>: The invoice balance</li>
+<li><strong>Due Date</strong>: The date the payment is due</li>
+<li><strong>Status</strong>: The status of the invoice (Draft, Not Paid, Sent, Viewed, Paid, Overdue)</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">You can also create a new invoice for this client via the Create button that appears at the top left of the Invoices section.</p>
+</div>
+</div>
+<div class="section" id="payments-section">
+<h4>Payments Section<a class="headerlink" href="#payments-section" title="Permalink to this headline">¶</a></h4>
+<p>The Payments section shows a list of all the client’s payments and accompanying information.</p>
+<ul class="simple">
+<li><strong>Transaction reference</strong>: The reference number of the transaction</li>
+<li><strong>Method</strong>: The payment method (ie. Paypal, Stripe, Cash, etc)</li>
+<li><strong>Amount</strong>: The payment amount</li>
+<li><strong>Date</strong>: The date the payment was made</li>
+<li><strong>Currency</strong>: Currency used in the payment</li>
+</ul>
+</div>
+<div class="section" id="projects-section">
+<h4>Projects Section<a class="headerlink" href="#projects-section" title="Permalink to this headline">¶</a></h4>
+<p>The projects section shows a list of all the client’s projects and accompanying information.</p>
+<ul class="simple">
+<li><strong>Title</strong>: The invoice number</li>
+<li><strong>Expenses</strong>: Total expenses for the project</li>
+<li><strong>Start Date</strong>: The start date of the project</li>
+<li><strong>Amount</strong>: Total cost of the project</li>
+<li><strong>Progress</strong>: Project progress in percentage</li>
+<li><strong>Due Date</strong>: The date the project is due</li>
+<li><strong>Status</strong>: The status of the project (Active, Done, On Hold)</li>
+</ul>
+</div>
+<div class="section" id="estimates-section">
+<h4>Estimates Section<a class="headerlink" href="#estimates-section" title="Permalink to this headline">¶</a></h4>
+<p>The estimates section shows a list of all the client’s estimates and accompanying information.</p>
+<ul class="simple">
+<li><strong>Estimate Reference</strong>: The estimate number</li>
+<li><strong>Date Issued</strong>: The date the estimate was created</li>
+<li><strong>Amount</strong>: The estimate amount</li>
+<li><strong>Viewed</strong>: An icon showing whether an estimate has been viewed by client</li>
+<li><strong>Due Date</strong>: The date the estimate is due</li>
+<li><strong>Status</strong>: The status of the estimate (Draft, Pending, Sent, Approved, Rejected, Overdue)</li>
+</ul>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">You can also create a new estimate for this client via the Create button that appears at the top left of the estimates section.</p>
+</div>
+</div>
+<div class="section" id="expenses-section">
+<h4>Expenses Section<a class="headerlink" href="#expenses-section" title="Permalink to this headline">¶</a></h4>
+<p>The expenses section shows a list of all the client’s expenses and accompanying information.</p>
+<ul class="simple">
+<li><strong>Expense reference</strong>: The reference number of the expense</li>
+<li><strong>Category</strong>: Expense category (ie Housing, Marketing etc)</li>
+<li><strong>Amount</strong>: The expense amount</li>
+<li><strong>Date</strong>: The date the expense was incurred</li>
+<li><strong>Invoiced</strong>: Whether the expense has been invoiced</li>
+<li><strong>Currency</strong>: Currency used in the expense</li>
+</ul>
+</div>
+<div class="section" id="files-section">
+<h4>Files Section<a class="headerlink" href="#files-section" title="Permalink to this headline">¶</a></h4>
+<p>The Files section shows a list of all the client’s associated files.</p>
+</div>
+<div class="section" id="subscriptions-section">
+<h4>Subscriptions Section<a class="headerlink" href="#subscriptions-section" title="Permalink to this headline">¶</a></h4>
+<p>The subscriptions section shows a list of all the client’s subscriptions.</p>
+</div>
+<div class="section" id="updating-client">
+<h4>Updating Client<a class="headerlink" href="#updating-client" title="Permalink to this headline">¶</a></h4>
+<p>Click on the Update button, at the top right corner of the page. You will now be taken to the Account/Update page, where you can edit any of the fields.</p>
+</div>
+<div class="section" id="deleting-the-client">
+<h4>Deleting the Client<a class="headerlink" href="#deleting-the-client" title="Permalink to this headline">¶</a></h4>
+<p>You can also delete the specific client directly from their Client Overview page.
+Click on the trash icon at the right hand side of the Update Client button.</p>
+</div>
+</div>
+</div>
+<span id="document-groups"></span><div class="section" id="calendar">
+<h2>Calendar<a class="headerlink" href="#calendar" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://workice.com">Workice CRM</a> Calendar module allows users to easily schedule, view, and manage their activities like calls, meetings and appointments, all in one place.  Easily keep track of all your customer invoices, payments, expenses, leads, tasks etc</p>
+<div class="section" id="add-calendar-type">
+<h3>Add Calendar Type<a class="headerlink" href="#add-calendar-type" title="Permalink to this headline">¶</a></h3>
+<p>By default 2 calendar types are available, <code class="docutils literal notranslate"><span class="pre">Work</span> <span class="pre">and</span> <span class="pre">Personal</span></code>. You are free to add/update or delete calendar types by clicking on the <strong>Gear</strong> icon at the top right of the Calendar page.</p>
+</div>
+<div class="section" id="ical-feed-url">
+<h3>iCal Feed URL<a class="headerlink" href="#ical-feed-url" title="Permalink to this headline">¶</a></h3>
+<p>Click on iCal buton to see options for pulling events from your Workice Calendar and pushing them into other calendar apps.
+You will now see a popup with your iCal Feed URL. Follow the on-screen instructions to “subscribe” to events in your Workice Calendar with other apps. New events created in Workice CRM will then show up automatically in those other apps.</p>
+</div>
+<div class="section" id="google-calendar">
+<h3>Google Calendar<a class="headerlink" href="#google-calendar" title="Permalink to this headline">¶</a></h3>
+<p>To display events from your Google Calendar, Go to <strong>Settings</strong> -&gt; <strong>System Settings</strong> and enter your Google Calendar API key and your Google Calendar ID. Once the settings are configured, your events will display on Workice calendar.</p>
+</div>
+</div>
+<span id="document-reports"></span><div class="section" id="reports">
+<h2>Reports<a class="headerlink" href="#reports" title="Permalink to this headline">¶</a></h2>
+<p>You can only manage what you can measure. With <a class="reference external" href="https://workice.com">Workice CRM</a>, manage the way your business is run with reporting that breaks down key metrics relating to your sales trends, invoices, projects, expenses and more. Reports are a great way to not only see how you’re doing, but also forecast where you’re going in the future.</p>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">All the charts and statistics displayed in the reports section will use your base currency.</p>
+</div>
+<div class="section" id="invoices-report">
+<h3>Invoices Report<a class="headerlink" href="#invoices-report" title="Permalink to this headline">¶</a></h3>
+<p>Your Invoice Details Report gives you a comprehensive overview of all Invoices you have generated in a given time period.
+You can run an Invoice Report by doing the following:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Click on the Reports tab</li>
+<li>Select Invoices module from the <strong>Modules</strong> dropdown menu.</li>
+<li>Click <strong>Reports</strong> button.</li>
+</ul>
+</div></blockquote>
+<p>There are a few options you can change when generating reports;</p>
+<ul class="simple">
+<li><strong>Date Range</strong> – You can set a date range you would like this report to include information within</li>
+<li><strong>Clients</strong> – You can run Client(s) specific Invoice reports if necessary</li>
+<li><strong>Recurring</strong> – Choose to only include recurring invoices</li>
+<li><strong>Status</strong> – Choose to only include Invoices with specific statuses (such as Not Paid, Fully Paid, Cancelled etc)</li>
+<li><strong>Sent</strong> – Only display sent invoices</li>
+</ul>
+</div>
+<div class="section" id="deals-report">
+<h3>Deals Report<a class="headerlink" href="#deals-report" title="Permalink to this headline">¶</a></h3>
+<p>These options are for simple and effective analysis of the bottom line: winning or losing deals.</p>
+<p>These reports are excellent milestone reports, to demonstrate how many deals were closed in the account.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you have setup cron correctly, sales velocity and conversion rate will be calculated daily at 04:00.</p>
+</div>
+<div class="section" id="sales-velocity">
+<h4>Sales velocity<a class="headerlink" href="#sales-velocity" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><ul class="simple">
+<li>Displays the average amount of time a deal’s creation until the deal it marked as WON or LOST.</li>
+<li>Recommended for gaining insight into how effective your users or processes are in closing deals quickly.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="conversion-rate">
+<h4>Conversion Rate<a class="headerlink" href="#conversion-rate" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>Displays how many deals are won compared to the total number of deals.</li>
+<li>Recommended for knowing if you lose many of your deals allowing you to make improvements to address any issues.</li>
+</ul>
+</div>
+<div class="section" id="deals-won">
+<h4>Deals won<a class="headerlink" href="#deals-won" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><ul class="simple">
+<li>Displays the number of deals marked as WON in a particular month.</li>
+<li>Recommended for an easy at-hand report of how your business is bringing in income through its sales process.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="deals-lost">
+<h4>Deals lost<a class="headerlink" href="#deals-lost" title="Permalink to this headline">¶</a></h4>
+<blockquote>
+<div><ul class="simple">
+<li>Displays the number of deals marked as LOST in a particular month.</li>
+<li>Recommended for an easy at-hand report of the deals that did not make it through, allowing you to do better in the future.</li>
+</ul>
+</div></blockquote>
+<p>You can run Deals Report by doing the following:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Click on the Reports tab</li>
+<li>Select Deals module from the <strong>Modules</strong> dropdown menu.</li>
+<li>Click <strong>Reports</strong> button.</li>
+</ul>
+</div></blockquote>
+<p>There are a few options you can change when generating reports;</p>
+<ul class="simple">
+<li><strong>Date Range</strong> – You can set a date range you would like this report to include information within</li>
+<li><strong>Pipeline</strong> – You can run reports for a specific pipeline</li>
+<li><strong>Stage</strong> – Choose to only include deals in specific stage</li>
+<li><strong>User</strong> – Choose to only include deals assigned to a user</li>
+<li><strong>Status</strong> – Only display deals in open, won or lost status</li>
+</ul>
+</div>
+</div>
+<div class="section" id="leads-report">
+<h3>Leads Report<a class="headerlink" href="#leads-report" title="Permalink to this headline">¶</a></h3>
+<p>A CRM leads report shows you how many leads your sales team has acquired in a given time frame, as well as the lead source and stages.
+You can run leads report by doing the following:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Click on the Reports tab</li>
+<li>Select Leads module from the <strong>Modules</strong> dropdown menu.</li>
+<li>Click <strong>Reports</strong> button.</li>
+</ul>
+</div></blockquote>
+<p>There are a few options you can change when generating reports;</p>
+<ul class="simple">
+<li><strong>Date Range</strong> – You can set a date range you would like this report to include information within</li>
+<li><strong>Stage</strong> – Choose to only include leads in specific stage</li>
+<li><strong>Source</strong> – You can run reports for a specific lead source e.g Google</li>
+<li><strong>Sales Agent</strong> – Choose to only include leads assigned to a user</li>
+<li><strong>Archived</strong> – Only display archived/unarchived leads</li>
+</ul>
+</div>
+<div class="section" id="expenses-report">
+<h3>Expenses Report<a class="headerlink" href="#expenses-report" title="Permalink to this headline">¶</a></h3>
+<p>The Expense Report breaks down all of your expenses into detail.
+You can run expenses report by doing the following:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Click on the Reports tab</li>
+<li>Select Expenses module from the <strong>Modules</strong> dropdown menu.</li>
+<li>Click <strong>Reports</strong> button.</li>
+</ul>
+</div></blockquote>
+<p>There are a few options you can change when generating reports;</p>
+<ul class="simple">
+<li><strong>Date Range</strong> – You can set a date range you would like this report to include information within</li>
+<li><strong>Client</strong> – Choose to show expenses for a specific client</li>
+<li><strong>Project</strong> – You can run reports for a specific project</li>
+<li><strong>Billable</strong> – Choose to only include billable expenses</li>
+<li><strong>Billed</strong> – Only display billed/unbilled expenses</li>
+<li><strong>Category</strong> – Only display expenses in a specific category</li>
+</ul>
+</div>
+<div class="section" id="payments-report">
+<h3>Payments Report<a class="headerlink" href="#payments-report" title="Permalink to this headline">¶</a></h3>
+<p>Your Payments Report breaks out all of the payments you have recorded in <a class="reference external" href="https://workice.com">Workice</a>.
+You can run payments report by doing the following:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Click on the Reports tab</li>
+<li>Select Payments module from the <strong>Modules</strong> dropdown menu.</li>
+<li>Click <strong>Reports</strong> button.</li>
+</ul>
+</div></blockquote>
+<p>There are a few options you can change when generating reports;</p>
+<ul class="simple">
+<li><strong>Date Range</strong> – You can set a date range you would like this report to include information within</li>
+<li><strong>Project</strong> – You can run reports for a specific project</li>
+<li><strong>Client</strong> – Choose to show expenses for a specific client</li>
+<li><strong>Invoice</strong> – Choose to only include payments for an invoice</li>
+<li><strong>Payment Method</strong> – Only display payments received in a specific payment provider</li>
+</ul>
+</div>
+<div class="section" id="estimates-report">
+<h3>Estimates Report<a class="headerlink" href="#estimates-report" title="Permalink to this headline">¶</a></h3>
+<p>The estimates report shows you how many estimates have been sent, approved or rejected in a given time frame.
+You can run estimates report by doing the following:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Click on the Reports tab</li>
+<li>Select Estimates module from the <strong>Modules</strong> dropdown menu.</li>
+<li>Click <strong>Reports</strong> button.</li>
+</ul>
+</div></blockquote>
+<p>There are a few options you can change when generating reports;</p>
+<ul class="simple">
+<li><strong>Date Range</strong> – You can set a date range you would like this report to include information within</li>
+<li><strong>Client</strong> – Choose to show estimates for a specific client</li>
+<li><strong>Status</strong> – Choose to show accepted, declined or pending estimates</li>
+<li><strong>Sent</strong> – Include only those estimates that have been sent/not sent</li>
+<li><strong>Invoiced</strong> – Choose to only include invoiced or uninvoiced estimates</li>
+</ul>
+</div>
+<div class="section" id="credits-report">
+<h3>Credits Report<a class="headerlink" href="#credits-report" title="Permalink to this headline">¶</a></h3>
+<p>The creditnotes report shows you how many credits have been closed or open in a given time frame.
+You can run creditnotes report by doing the following:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Click on the Reports tab</li>
+<li>Select Creditnotes module from the <strong>Modules</strong> dropdown menu.</li>
+<li>Click <strong>Reports</strong> button.</li>
+</ul>
+</div></blockquote>
+<p>There are a few options you can change when generating reports;</p>
+<ul class="simple">
+<li><strong>Date Range</strong> – You can set a date range you would like this report to include information within</li>
+<li><strong>Client</strong> – Choose to show credits for a specific client</li>
+<li><strong>Status</strong> – Choose to show open or closed credits</li>
+<li><strong>Sent</strong> – Include only those credits that have been sent or not sent</li>
+</ul>
+</div>
+<div class="section" id="projects-report">
+<h3>Projects Report<a class="headerlink" href="#projects-report" title="Permalink to this headline">¶</a></h3>
+<p>Within Workice Projects, you can generate a project report, designed to give you an overview of all projects within your CRM.
+You can run projects report by doing the following:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Click on the Reports tab</li>
+<li>Select Projects module from the <strong>Modules</strong> dropdown menu.</li>
+<li>Click <strong>Reports</strong> button.</li>
+</ul>
+</div></blockquote>
+<p>There are a few options you can change when generating reports;</p>
+<ul class="simple">
+<li><strong>Date Range</strong> – You can set a date range you would like this report to include information within</li>
+<li><strong>Client</strong> – Choose to show projects for a specific client</li>
+<li><strong>Status</strong> – Choose to show active, done and on hold projects</li>
+<li><strong>With Contract</strong> – Include only those projects which has a contract or does not have a contract</li>
+</ul>
+</div>
+<div class="section" id="tasks-report">
+<h3>Tasks Report<a class="headerlink" href="#tasks-report" title="Permalink to this headline">¶</a></h3>
+<p>The Tasks Report lists all tasks in your CRM, and allows you to filter by stage, milestone and task project.
+You can run tasks report by doing the following:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Click on the Reports tab</li>
+<li>Select Tasks module from the <strong>Modules</strong> dropdown menu.</li>
+<li>Click <strong>Reports</strong> button.</li>
+</ul>
+</div></blockquote>
+<p>There are a few options you can change when generating reports;</p>
+<ul class="simple">
+<li><strong>Date Range</strong> – You can set a date range you would like this report to include information within</li>
+<li><strong>Project</strong> – Choose to show tasks for a specific project</li>
+<li><strong>Milestone</strong> – Choose to show tasks linked to a specific milestone</li>
+<li><strong>Stage</strong> – Include only those tasks in a particular stage</li>
+<li><strong>User</strong> – Include only those tasks created by a particular user</li>
+</ul>
+</div>
+<div class="section" id="timesheet-reports">
+<h3>Timesheet Reports<a class="headerlink" href="#timesheet-reports" title="Permalink to this headline">¶</a></h3>
+<p>The Timesheet Report is a very helpful way for your business to review how much time is being spent on a given project and by whom. Time Reports show the hours and billable information for each project, task and team member.</p>
+<p>You can run time report by doing the following:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Click on the Reports tab</li>
+<li>Select Timesheets module from the <strong>Modules</strong> dropdown menu.</li>
+<li>Click <strong>Reports</strong> button.</li>
+</ul>
+</div></blockquote>
+<p>There are a few options you can change when generating reports;</p>
+<ul class="simple">
+<li><strong>Date Range</strong> – You can set a date range you would like this report to include information within</li>
+<li><strong>Project</strong> – Choose to show time entries for a specific project</li>
+<li><strong>Task</strong> – Choose to show time entries for a specific task</li>
+<li><strong>Billable</strong> – Include only those time entries that are billable or unbillable</li>
+<li><strong>User</strong> – Include only those time entries created by a particular user</li>
+</ul>
+</div>
+<div class="section" id="ticket-reports">
+<h3>Ticket Reports<a class="headerlink" href="#ticket-reports" title="Permalink to this headline">¶</a></h3>
+<p>The tickets report show the number of tickets created and solved by date.</p>
+<p>You can run tickets report by doing the following:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Click on the Reports tab</li>
+<li>Select Tickets module from the <strong>Modules</strong> dropdown menu.</li>
+<li>Click <strong>Reports</strong> button.</li>
+</ul>
+</div></blockquote>
+<p>There are a few options you can change when generating reports;</p>
+<ul class="simple">
+<li><strong>Date Range</strong> – You can set a date range you would like this report to include information within</li>
+<li><strong>Reporter</strong> – Choose to show only those ticket opened by a specific user</li>
+<li><strong>Status</strong> – Choose to show tickets in specified status e.g open, closed etc</li>
+<li><strong>Department</strong> – Choose to show tickets for a specific department</li>
+<li><strong>Priority</strong> – Choose to show tickets that have low,high or medium priority</li>
+</ul>
+<div class="section" id="agent-performance">
+<h4>Agent Performance<a class="headerlink" href="#agent-performance" title="Permalink to this headline">¶</a></h4>
+<p>You can view agent performance by clicking on <strong>Type</strong> button in the <strong>Ticket Reports</strong> page.</p>
+<dl class="docutils">
+<dt>The agent performance table contains the columns below;</dt>
+<dd><ul class="first last simple">
+<li><strong>Name</strong>: Ticket agent name</li>
+<li><strong>Comments</strong>: The number of ticket comments posted by the agent</li>
+<li><strong>Resolved</strong>: The number of tickets solved by the agent</li>
+<li><strong>Feedback</strong>: The percentage number of happy customer feedbacks</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="ticket-feedbacks">
+<h4>Ticket Feedbacks<a class="headerlink" href="#ticket-feedbacks" title="Permalink to this headline">¶</a></h4>
+<p>You can view ticket ratings by clicking on <strong>Type</strong> button in the <strong>Ticket Reports</strong> page.</p>
+<dl class="docutils">
+<dt>The ticket feedback table contains the columns below;</dt>
+<dd><ul class="first last simple">
+<li><strong>Name</strong>: Ticket requester name</li>
+<li><strong>Ticket</strong>: The ticket that the ticket requester rated</li>
+<li><strong>Date</strong>: Date when the rating was received</li>
+<li><strong>Rating</strong>: Whether the client was happy/dissatisfied</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<span id="document-webhooks"></span><div class="section" id="knowledgebase">
+<h2>Knowledgebase<a class="headerlink" href="#knowledgebase" title="Permalink to this headline">¶</a></h2>
+<p>Internet businesses are, in a sense, always open. Customers interact with your website 24/7, and when they have a question, they want an answer that minute.</p>
+<p>The best knowledge software anticipates your users’ most common problems and makes it quick and easy for them to find the solution they need. That’s why a knowledge base is also useful for customer service agents. While working on a user’s ticket, an agent can interact with your intuitive knowledge base content to learn more about their problem.</p>
+<div class="section" id="create-categories">
+<h3>Create Categories<a class="headerlink" href="#create-categories" title="Permalink to this headline">¶</a></h3>
+<p>To create article categories, click on <strong>gears</strong> icon at the top right of the articles list page. A modal will pop up and you can create, edit or delete article categories.</p>
+</div>
+<div class="section" id="create-article">
+<h3>Create Article<a class="headerlink" href="#create-article" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>Click on <strong>Create</strong> button</li>
+<li>Add article <strong>subject</strong> and select a <strong>category</strong></li>
+<li>Write the body of your article.</li>
+<li>To disable comments on the article, uncheck <strong>Allow Comments</strong> checkbox</li>
+<li>To save the article as draft/unpublished, uncheck the <strong>Published</strong> checkbox</li>
+</ul>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">The editor supports markdown text do not use html tags.</p>
+</div>
+</div></blockquote>
+</div>
+</div>
+</div>
+<div class="toctree-wrapper compound">
+<span id="document-system_settings"></span><div class="section" id="system-settings">
+<h2>System Settings<a class="headerlink" href="#system-settings" title="Permalink to this headline">¶</a></h2>
+<p>You can view and edit the system configuration in your CRM by going to <strong>Settings</strong> and clicking on the <strong>System Settings</strong>.</p>
+<p>You can modify the settings below;</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Purchase Code</strong>: Enter your purchase code (Used for license verification)</li>
+<li><strong>Default Language</strong>: The default system language</li>
+<li><strong>Locale</strong>: Your preferred system locale</li>
+<li><strong>Timezone</strong>: Your timezone</li>
+<li><strong>Default Currency</strong>: Your preferred currency. Default USD</li>
+<li><strong>Currency Symbol</strong>: Must be the symbol of your default currency above</li>
+<li><strong>Default Calendar</strong>: System default calendar type e.g Work or Personal</li>
+<li><strong>Tax 1</strong>: Default Tax 1 percentage</li>
+<li><strong>Default Subscription</strong>: Enter your default subscription name</li>
+<li><strong>Tax 1 Label</strong>: Give your Tax 1 a name e.g GST</li>
+<li><strong>Tax 2</strong>: Enter the default Tax 2 percentage</li>
+<li><strong>Tax 2 Label</strong>: Give your Tax 2 a name</li>
+<li><strong>Tax Decimals</strong>: The number of decimals to be used in tax display</li>
+<li><strong>Quantity Decimals</strong>: Number of decimals to be used in displaying quantity</li>
+<li><strong>Date Format</strong>: Choose your preferred date format</li>
+<li><strong>File max size</strong>: Maximum file size in KB e.g 8192 for 8MB</li>
+<li><strong>Allowed files</strong>: Comma separated list of allowed files e.g png,pdf,docx etc</li>
+<li><strong>Privacy Policy URL</strong>: A link to your privacy policy</li>
+<li><strong>Slack webhook URL</strong>: Your company slack webhook url to receive notifications</li>
+<li><strong>Open Exchange API Key</strong>: If left blank, the system will use our rates server to fetch currency rates.</li>
+<li><strong>Google Calendar API Key</strong>: Your <a class="reference external" href="https://console.developers.google.com/">Google Calendar</a> API Key</li>
+<li><strong>Google Calendar ID</strong>: Your Google Calendar ID. It will look something like “<a class="reference external" href="mailto:abcd1234&#37;&#52;&#48;group&#46;calendar&#46;google&#46;com">abcd1234<span>&#64;</span>group<span>&#46;</span>calendar<span>&#46;</span>google<span>&#46;</span>com</a>”.</li>
+<li><strong>Default Role</strong>: When a user is created or registered, this role will be assigned.</li>
+</ul>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">Do NOT set the <strong>Default Role</strong> to admin.</p>
+</div>
+</div></blockquote>
+<dl class="docutils">
+<dt>Other Options</dt>
+<dd><ul class="first last simple">
+<li><strong>Auto Reminder</strong>: Send email reminders for estimates, contracts, tasks or todos when almost overdue.</li>
+<li><strong>Enable Languages</strong>: When enabled, you can select your preferred language using the dropdown languages menu.</li>
+<li><strong>Use Gravatar</strong>: Use gravatar to retrieve user avatars</li>
+<li><strong>Allow Client Registration</strong>: Enable client registrations</li>
+<li><strong>Show amount in words</strong>: Show amount in words (Invoices, Credits, Estimates and Payments)</li>
+<li><strong>Daily Digest</strong>: Enable this option to receive daily email digest</li>
+<li><strong>Exchange Rates</strong>: Enable exchange rate updates</li>
+<li><strong>Use ReCaptcha</strong>: Use ReCaptcha in registrations</li>
+<li><strong>Clients add projects</strong>: Clients can add projects</li>
+<li><strong>Stop timer logout</strong>: When this option is enabled, running timers will be stopped when you logout.</li>
+<li><strong>Contract to Project</strong>: Automatically convert a contract into a project once it’s signed</li>
+<li><strong>Update Notifications</strong>: Receive update notifications</li>
+<li><strong>Demo Mode</strong>: Turn application into demo mode useful for those who purchased extended license and want to show a demo.</li>
+</ul>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Hamsoft Uganda
+      
+        <span class="commit">
+          Revision <code>deff778a</code>.
+        </span>
+      
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      v: latest
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      <dl>
+        <dt>Versions</dt>
+        
+          <dd><a href="/en/latest/">latest</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>Downloads</dt>
+        
+          <dd><a href="//readthedocs.org/projects/noregrets-sms-api/downloads/pdf/latest/">pdf</a></dd>
+        
+          <dd><a href="//readthedocs.org/projects/noregrets-sms-api/downloads/htmlzip/latest/">html</a></dd>
+        
+          <dd><a href="//readthedocs.org/projects/noregrets-sms-api/downloads/epub/latest/">epub</a></dd>
+        
+      </dl>
+      <dl>
+        <dt>On Read the Docs</dt>
+          <dd>
+            <a href="//readthedocs.org/projects/noregrets-sms-api/?fromdocs=noregrets-sms-api">Project Home</a>
+          </dd>
+          <dd>
+            <a href="//readthedocs.org/builds/noregrets-sms-api/?fromdocs=noregrets-sms-api">Builds</a>
+          </dd>
+      </dl>
+      <hr/>
+      Free document hosting provided by <a href="http://www.readthedocs.org">Read the Docs</a>.
+
+    </div>
+  </div>
+
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+   
+
+</body>
+</html>

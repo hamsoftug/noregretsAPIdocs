@@ -81,10 +81,6 @@ Parameters
 | message       | required   | the content of the message being sent               |
 +---------------+------------+-----------------------------------------------------+
 
-Sample Code
-^^^^^^^^^^
-.. code-block:: java
-  system.ou.println("Hello world");
 
 Sample Response
 ^^^^^^^^^^^^^^^
@@ -94,6 +90,24 @@ Sample Response
 
 
 
+``GET`` - /api/v1/users/{id}
+-------------------------------
+Get invoice information
+
+.. code-block:: shell
+
+  GET /api/v1/users/{id}
+  Accept: application/json
+  Authorization: Bearer $AccessToken
+  
+  
+  
+Sample Response
+^^^^^^^^^^^^^^^
+.. code-block:: json
+  [{"msg_id":"10104","msg_number":"1537610758000","msg_admin":"UN483330026","msg_user":"SYC1341118627","msg_sender_phone":"+256755168219","msg_receiver_phone":"+256775518197","msg_text":"hey. plz add this to ","msg_type":"Received","msg_status":"1","msg_date_time":"2018-09-22 01:06:02","sms_multinumber":"","sms_criteria":"API","c_phone_message_id":"21497","c_msg_number":"1537610758000","c_company_id":"COMP344445791","c_date_time":"2018-09-22 13:49:50"},
+  
+  
 ``GET`` - /api/v1/users/{id}
 -------------------------------
 Get invoice information
@@ -122,12 +136,9 @@ Sample Code
 	  CURLOPT_SSL_VERIFYHOST => 0,
 	  CURLOPT_SSL_VERIFYPEER => 0,
 	));
-
 	$response = curl_exec($curl);
 	$err = curl_error($curl);
-
 	curl_close($curl);
-
 	if ($err) {
 	  echo "cURL Error #:" . $err;
 	} else {
